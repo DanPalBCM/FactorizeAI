@@ -1,0 +1,182 @@
+{
+  "stats": {
+    "submitted": 10,
+    "finished": 10,
+    "running": 0
+  },
+  "data": [
+    [
+      1,
+      null,
+      209652396,
+      null,
+      0.7340129501014043,
+      0.21463370323181152,
+      1,
+      1694793727.1882324,
+      1694793727.403962,
+      {}
+    ],
+    [
+      1,
+      null,
+      398764591,
+      null,
+      0.7340129501014057,
+      0.2157151699066162,
+      1,
+      1694793727.4061747,
+      1694793727.6229565,
+      {}
+    ],
+    [
+      2,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1694793727.625295,
+      1694793727.6513093,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 735, in train\n    X, X_r = Truncated_SVD(X_scaled, **config_dict)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 71, in Truncated_SVD\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_truncated_svd.py\", line 223, in fit_transform\n    self._validate_params()\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/base.py\", line 600, in _validate_params\n    validate_parameter_constraints(\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_param_validation.py\", line 97, in validate_parameter_constraints\n    raise InvalidParameterError(\nsklearn.utils._param_validation.InvalidParameterError: The 'power_iteration_normalizer' parameter of TruncatedSVD must be a str among {'LU', 'none', 'OR', 'auto'}. Got 'QR' instead.\n",
+        "error": "InvalidParameterError(\"The 'power_iteration_normalizer' parameter of TruncatedSVD must be a str among {'LU', 'none', 'OR', 'auto'}. Got 'QR' instead.\")"
+      }
+    ],
+    [
+      2,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1694793727.6537445,
+      1694793727.655668,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 735, in train\n    X, X_r = Truncated_SVD(X_scaled, **config_dict)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 71, in Truncated_SVD\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_truncated_svd.py\", line 223, in fit_transform\n    self._validate_params()\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/base.py\", line 600, in _validate_params\n    validate_parameter_constraints(\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_param_validation.py\", line 97, in validate_parameter_constraints\n    raise InvalidParameterError(\nsklearn.utils._param_validation.InvalidParameterError: The 'power_iteration_normalizer' parameter of TruncatedSVD must be a str among {'LU', 'none', 'OR', 'auto'}. Got 'QR' instead.\n",
+        "error": "InvalidParameterError(\"The 'power_iteration_normalizer' parameter of TruncatedSVD must be a str among {'LU', 'none', 'OR', 'auto'}. Got 'QR' instead.\")"
+      }
+    ],
+    [
+      1,
+      null,
+      924231285,
+      null,
+      0.734012950101405,
+      0.20696687698364258,
+      1,
+      1694793727.6585672,
+      1694793727.866855,
+      {}
+    ],
+    [
+      3,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1694793728.1269326,
+      1694793728.128956,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 735, in train\n    X, X_r = Truncated_SVD(X_scaled, **config_dict)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 71, in Truncated_SVD\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_truncated_svd.py\", line 237, in fit_transform\n    raise ValueError(\nValueError: n_components(5) must be <= n_features(4).\n",
+        "error": "ValueError('n_components(5) must be <= n_features(4).')"
+      }
+    ],
+    [
+      3,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1694793728.13146,
+      1694793728.133392,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 735, in train\n    X, X_r = Truncated_SVD(X_scaled, **config_dict)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 71, in Truncated_SVD\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_truncated_svd.py\", line 237, in fit_transform\n    raise ValueError(\nValueError: n_components(5) must be <= n_features(4).\n",
+        "error": "ValueError('n_components(5) must be <= n_features(4).')"
+      }
+    ],
+    [
+      3,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1694793728.1356084,
+      1694793728.137475,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 735, in train\n    X, X_r = Truncated_SVD(X_scaled, **config_dict)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 71, in Truncated_SVD\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_truncated_svd.py\", line 237, in fit_transform\n    raise ValueError(\nValueError: n_components(5) must be <= n_features(4).\n",
+        "error": "ValueError('n_components(5) must be <= n_features(4).')"
+      }
+    ],
+    [
+      4,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1694793728.1406677,
+      1694793728.1425061,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 735, in train\n    X, X_r = Truncated_SVD(X_scaled, **config_dict)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 71, in Truncated_SVD\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_truncated_svd.py\", line 223, in fit_transform\n    self._validate_params()\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/base.py\", line 600, in _validate_params\n    validate_parameter_constraints(\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_param_validation.py\", line 97, in validate_parameter_constraints\n    raise InvalidParameterError(\nsklearn.utils._param_validation.InvalidParameterError: The 'power_iteration_normalizer' parameter of TruncatedSVD must be a str among {'LU', 'none', 'OR', 'auto'}. Got 'QR' instead.\n",
+        "error": "InvalidParameterError(\"The 'power_iteration_normalizer' parameter of TruncatedSVD must be a str among {'LU', 'none', 'OR', 'auto'}. Got 'QR' instead.\")"
+      }
+    ],
+    [
+      4,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1694793728.1449404,
+      1694793728.146653,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 735, in train\n    X, X_r = Truncated_SVD(X_scaled, **config_dict)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 71, in Truncated_SVD\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_truncated_svd.py\", line 223, in fit_transform\n    self._validate_params()\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/base.py\", line 600, in _validate_params\n    validate_parameter_constraints(\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_param_validation.py\", line 97, in validate_parameter_constraints\n    raise InvalidParameterError(\nsklearn.utils._param_validation.InvalidParameterError: The 'power_iteration_normalizer' parameter of TruncatedSVD must be a str among {'LU', 'none', 'OR', 'auto'}. Got 'QR' instead.\n",
+        "error": "InvalidParameterError(\"The 'power_iteration_normalizer' parameter of TruncatedSVD must be a str among {'LU', 'none', 'OR', 'auto'}. Got 'QR' instead.\")"
+      }
+    ]
+  ],
+  "configs": {
+    "1": {
+      "n_components": 3,
+      "n_iter": 6,
+      "n_oversamples": 3,
+      "power_iteration_normalizer": "auto"
+    },
+    "2": {
+      "n_components": 5,
+      "n_iter": 4,
+      "n_oversamples": 8,
+      "power_iteration_normalizer": "QR"
+    },
+    "3": {
+      "n_components": 5,
+      "n_iter": 3,
+      "n_oversamples": 10,
+      "power_iteration_normalizer": "LU"
+    },
+    "4": {
+      "n_components": 4,
+      "n_iter": 4,
+      "n_oversamples": 10,
+      "power_iteration_normalizer": "QR"
+    }
+  },
+  "config_origins": {
+    "1": "Initial Design: Sobol",
+    "2": "Initial Design: Sobol",
+    "3": "Acquisition Function Maximizer: Random Search (sorted)",
+    "4": "Acquisition Function Maximizer: Random Search (sorted)"
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "stats": {
+    "submitted": 10,
+    "finished": 10,
+    "running": 0
+  },
+  "data": [
+    [
+      1,
+      null,
+      209652396,
+      null,
+      0.5209085105782177,
+      0.27571678161621094,
+      1,
+      1694793733.7988982,
+      1694793734.0757947,
+      {}
+    ],
+    [
+      1,
+      null,
+      398764591,
+      null,
+      0.541084945976964,
+      0.27790164947509766,
+      1,
+      1694793734.0805008,
+      1694793734.3595903,
+      {}
+    ],
+    [
+      2,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1694793734.3637767,
+      1694793734.3666346,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 678, in train\n    X, X_r = MiniBatch_NMF(X_scaled, **config_dict)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 109, in MiniBatch_NMF\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_nmf.py\", line 2143, in fit_transform\n    W, H, n_iter, n_steps = self._fit_transform(X, W=W, H=H)\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_nmf.py\", line 2204, in _fit_transform\n    W, H = self._check_w_h(X, W, H, update_H)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_nmf.py\", line 1198, in _check_w_h\n    W, H = _initialize_nmf(\n           ^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_nmf.py\", line 283, in _initialize_nmf\n    raise ValueError(\nValueError: init = 'nndsvdar' can only be used when n_components <= min(n_samples, n_features)\n",
+        "error": "ValueError(\"init = 'nndsvdar' can only be used when n_components <= min(n_samples, n_features)\")"
+      }
+    ],
+    [
+      2,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1694793734.369249,
+      1694793734.3716128,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 678, in train\n    X, X_r = MiniBatch_NMF(X_scaled, **config_dict)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 109, in MiniBatch_NMF\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_nmf.py\", line 2143, in fit_transform\n    W, H, n_iter, n_steps = self._fit_transform(X, W=W, H=H)\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_nmf.py\", line 2204, in _fit_transform\n    W, H = self._check_w_h(X, W, H, update_H)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_nmf.py\", line 1198, in _check_w_h\n    W, H = _initialize_nmf(\n           ^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_nmf.py\", line 283, in _initialize_nmf\n    raise ValueError(\nValueError: init = 'nndsvdar' can only be used when n_components <= min(n_samples, n_features)\n",
+        "error": "ValueError(\"init = 'nndsvdar' can only be used when n_components <= min(n_samples, n_features)\")"
+      }
+    ],
+    [
+      1,
+      null,
+      924231285,
+      null,
+      0.5989581077350759,
+      0.34902286529541016,
+      1,
+      1694793734.3862376,
+      1694793734.7364624,
+      {}
+    ],
+    [
+      3,
+      null,
+      209652396,
+      null,
+      0.45335073129344716,
+      0.434920072555542,
+      1,
+      1694793735.0962873,
+      1694793735.5325024,
+      {}
+    ],
+    [
+      3,
+      null,
+      398764591,
+      null,
+      0.45335072507708896,
+      0.45093488693237305,
+      1,
+      1694793735.5350094,
+      1694793735.9870949,
+      {}
+    ],
+    [
+      3,
+      null,
+      924231285,
+      null,
+      0.45335072787350494,
+      0.4232668876647949,
+      1,
+      1694793735.989716,
+      1694793736.4141629,
+      {}
+    ],
+    [
+      4,
+      null,
+      209652396,
+      null,
+      0.45301355377448915,
+      0.42676424980163574,
+      1,
+      1694793736.418403,
+      1694793736.8463473,
+      {}
+    ],
+    [
+      4,
+      null,
+      398764591,
+      null,
+      0.45301355377448915,
+      0.40358424186706543,
+      1,
+      1694793736.8491218,
+      1694793737.25386,
+      {}
+    ]
+  ],
+  "configs": {
+    "1": {
+      "alpha_W": 0.2668785210698843,
+      "batch_size": 1279,
+      "beta_loss": "frobenius",
+      "init": "random",
+      "l1_ratio": 0.8613398345187306,
+      "n_components": 3
+    },
+    "2": {
+      "alpha_W": 0.6414948515594006,
+      "batch_size": 304,
+      "beta_loss": "itakura-saito",
+      "init": "nndsvdar",
+      "l1_ratio": 0.39195177610963583,
+      "n_components": 5
+    },
+    "3": {
+      "alpha_W": 0.8917730007820798,
+      "batch_size": 265,
+      "beta_loss": "itakura-saito",
+      "init": "nndsvdar",
+      "l1_ratio": 0.6818202991034834,
+      "n_components": 2
+    },
+    "4": {
+      "alpha_W": 0.7151893663724195,
+      "batch_size": 828,
+      "beta_loss": "itakura-saito",
+      "init": "nndsvda",
+      "l1_ratio": 0.5684339488686485,
+      "n_components": 3
+    }
+  },
+  "config_origins": {
+    "1": "Initial Design: Sobol",
+    "2": "Initial Design: Sobol",
+    "3": "Acquisition Function Maximizer: Random Search (sorted)",
+    "4": "Acquisition Function Maximizer: Random Search (sorted)"
+  }
+}

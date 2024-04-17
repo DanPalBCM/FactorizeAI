@@ -1,0 +1,64 @@
+{
+  "hyperparameters": [
+    {
+      "name": "metric",
+      "type": "categorical",
+      "choices": [
+        "euclidean",
+        "manhattan",
+        "chebyshev",
+        "minkowski",
+        "canberra",
+        "braycurtis",
+        "haversine",
+        "mahalanobis",
+        "wminkowski",
+        "seuclidean",
+        "cosine",
+        "correlation",
+        "hamming",
+        "jaccard",
+        "dice",
+        "russellrao",
+        "kulsinski",
+        "rogerstanimoto",
+        "sokalmichener",
+        "sokalsneath",
+        "yule"
+      ],
+      "default": "euclidean",
+      "weights": null
+    },
+    {
+      "name": "min_dist",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.0,
+      "upper": 0.99,
+      "default": 0.1,
+      "q": null
+    },
+    {
+      "name": "n_components",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 2,
+      "upper": 3,
+      "default": 2,
+      "q": null
+    },
+    {
+      "name": "n_neighbors",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 5,
+      "upper": 100,
+      "default": 10,
+      "q": null
+    }
+  ],
+  "conditions": [],
+  "forbiddens": [],
+  "python_module_version": "0.6.1",
+  "json_format_version": 0.4
+}

@@ -1,0 +1,190 @@
+{
+  "stats": {
+    "submitted": 10,
+    "finished": 10,
+    "running": 0
+  },
+  "data": [
+    [
+      1,
+      null,
+      209652396,
+      null,
+      0.2929890214109135,
+      0.00710749626159668,
+      1,
+      1694800244.7108204,
+      1694800244.7192285,
+      {}
+    ],
+    [
+      1,
+      null,
+      398764591,
+      null,
+      0.29301023347428873,
+      0.006922245025634766,
+      1,
+      1694800244.7219186,
+      1694800244.7301068,
+      {}
+    ],
+    [
+      2,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1694800244.7327454,
+      1694800244.735205,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 717, in train\n    X, X_r = MiniBatch_NMF(X_scaled, **config_dict)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 109, in MiniBatch_NMF\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_nmf.py\", line 2143, in fit_transform\n    W, H, n_iter, n_steps = self._fit_transform(X, W=W, H=H)\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_nmf.py\", line 2195, in _fit_transform\n    raise ValueError(\nValueError: When beta_loss <= 0 and X contains zeros, the solver may diverge. Please add small values to X, or use a positive beta_loss.\n",
+        "error": "ValueError('When beta_loss <= 0 and X contains zeros, the solver may diverge. Please add small values to X, or use a positive beta_loss.')"
+      }
+    ],
+    [
+      2,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1694800244.7376952,
+      1694800244.7400708,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 717, in train\n    X, X_r = MiniBatch_NMF(X_scaled, **config_dict)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 109, in MiniBatch_NMF\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_nmf.py\", line 2143, in fit_transform\n    W, H, n_iter, n_steps = self._fit_transform(X, W=W, H=H)\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_nmf.py\", line 2195, in _fit_transform\n    raise ValueError(\nValueError: When beta_loss <= 0 and X contains zeros, the solver may diverge. Please add small values to X, or use a positive beta_loss.\n",
+        "error": "ValueError('When beta_loss <= 0 and X contains zeros, the solver may diverge. Please add small values to X, or use a positive beta_loss.')"
+      }
+    ],
+    [
+      1,
+      null,
+      924231285,
+      null,
+      0.2932337877704838,
+      0.008084774017333984,
+      1,
+      1694800244.7432573,
+      1694800244.7526333,
+      {}
+    ],
+    [
+      3,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1694800245.0349123,
+      1694800245.0378122,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 717, in train\n    X, X_r = MiniBatch_NMF(X_scaled, **config_dict)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 109, in MiniBatch_NMF\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_nmf.py\", line 2143, in fit_transform\n    W, H, n_iter, n_steps = self._fit_transform(X, W=W, H=H)\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_nmf.py\", line 2195, in _fit_transform\n    raise ValueError(\nValueError: When beta_loss <= 0 and X contains zeros, the solver may diverge. Please add small values to X, or use a positive beta_loss.\n",
+        "error": "ValueError('When beta_loss <= 0 and X contains zeros, the solver may diverge. Please add small values to X, or use a positive beta_loss.')"
+      }
+    ],
+    [
+      3,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1694800245.040756,
+      1694800245.043207,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 717, in train\n    X, X_r = MiniBatch_NMF(X_scaled, **config_dict)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 109, in MiniBatch_NMF\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_nmf.py\", line 2143, in fit_transform\n    W, H, n_iter, n_steps = self._fit_transform(X, W=W, H=H)\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_nmf.py\", line 2195, in _fit_transform\n    raise ValueError(\nValueError: When beta_loss <= 0 and X contains zeros, the solver may diverge. Please add small values to X, or use a positive beta_loss.\n",
+        "error": "ValueError('When beta_loss <= 0 and X contains zeros, the solver may diverge. Please add small values to X, or use a positive beta_loss.')"
+      }
+    ],
+    [
+      3,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1694800245.0459356,
+      1694800245.0483558,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 717, in train\n    X, X_r = MiniBatch_NMF(X_scaled, **config_dict)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 109, in MiniBatch_NMF\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_nmf.py\", line 2143, in fit_transform\n    W, H, n_iter, n_steps = self._fit_transform(X, W=W, H=H)\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_nmf.py\", line 2195, in _fit_transform\n    raise ValueError(\nValueError: When beta_loss <= 0 and X contains zeros, the solver may diverge. Please add small values to X, or use a positive beta_loss.\n",
+        "error": "ValueError('When beta_loss <= 0 and X contains zeros, the solver may diverge. Please add small values to X, or use a positive beta_loss.')"
+      }
+    ],
+    [
+      4,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1694800245.0521908,
+      1694800245.05469,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 717, in train\n    X, X_r = MiniBatch_NMF(X_scaled, **config_dict)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 109, in MiniBatch_NMF\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_nmf.py\", line 2143, in fit_transform\n    W, H, n_iter, n_steps = self._fit_transform(X, W=W, H=H)\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_nmf.py\", line 2195, in _fit_transform\n    raise ValueError(\nValueError: When beta_loss <= 0 and X contains zeros, the solver may diverge. Please add small values to X, or use a positive beta_loss.\n",
+        "error": "ValueError('When beta_loss <= 0 and X contains zeros, the solver may diverge. Please add small values to X, or use a positive beta_loss.')"
+      }
+    ],
+    [
+      4,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1694800245.057349,
+      1694800245.0596716,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 717, in train\n    X, X_r = MiniBatch_NMF(X_scaled, **config_dict)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 109, in MiniBatch_NMF\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_nmf.py\", line 2143, in fit_transform\n    W, H, n_iter, n_steps = self._fit_transform(X, W=W, H=H)\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_nmf.py\", line 2195, in _fit_transform\n    raise ValueError(\nValueError: When beta_loss <= 0 and X contains zeros, the solver may diverge. Please add small values to X, or use a positive beta_loss.\n",
+        "error": "ValueError('When beta_loss <= 0 and X contains zeros, the solver may diverge. Please add small values to X, or use a positive beta_loss.')"
+      }
+    ]
+  ],
+  "configs": {
+    "1": {
+      "alpha_W": 0.24019066896289587,
+      "batch_size": 1279,
+      "beta_loss": "frobenius",
+      "init": "random",
+      "l1_ratio": 0.7752058510668576,
+      "n_components": 3
+    },
+    "2": {
+      "alpha_W": 0.5773453664034606,
+      "batch_size": 304,
+      "beta_loss": "itakura-saito",
+      "init": "nndsvdar",
+      "l1_ratio": 0.35275659849867225,
+      "n_components": 5
+    },
+    "3": {
+      "alpha_W": 0.8025957007038718,
+      "batch_size": 265,
+      "beta_loss": "itakura-saito",
+      "init": "nndsvdar",
+      "l1_ratio": 0.6136382691931351,
+      "n_components": 2
+    },
+    "4": {
+      "alpha_W": 0.6436704297351775,
+      "batch_size": 828,
+      "beta_loss": "itakura-saito",
+      "init": "nndsvda",
+      "l1_ratio": 0.5115905539817837,
+      "n_components": 3
+    }
+  },
+  "config_origins": {
+    "1": "Initial Design: Sobol",
+    "2": "Initial Design: Sobol",
+    "3": "Acquisition Function Maximizer: Random Search (sorted)",
+    "4": "Acquisition Function Maximizer: Random Search (sorted)"
+  }
+}

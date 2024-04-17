@@ -1,0 +1,179 @@
+{
+  "stats": {
+    "submitted": 10,
+    "finished": 10,
+    "running": 0
+  },
+  "data": [
+    [
+      1,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1693322679.4741974,
+      1693322679.4756367,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFSMAC.py\", line 1629, in train\n    X, X_r = PCA_sklearn(X_scaled, svd_solver = config[\"svd_solver\"], n_components = config[\"n_components\"], power_iteration_normalizer=config[\"power_iteration_normalizer\"],\n                                                                                                                                        ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/ConfigSpace/configuration.py\", line 191, in __getitem__\n    raise KeyError(key)\nKeyError: 'power_iteration_normalizer'\n",
+        "error": "KeyError('power_iteration_normalizer')"
+      }
+    ],
+    [
+      1,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1693322679.4769926,
+      1693322679.477794,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFSMAC.py\", line 1629, in train\n    X, X_r = PCA_sklearn(X_scaled, svd_solver = config[\"svd_solver\"], n_components = config[\"n_components\"], power_iteration_normalizer=config[\"power_iteration_normalizer\"],\n                                                                                                                                        ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/ConfigSpace/configuration.py\", line 191, in __getitem__\n    raise KeyError(key)\nKeyError: 'power_iteration_normalizer'\n",
+        "error": "KeyError('power_iteration_normalizer')"
+      }
+    ],
+    [
+      2,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1693322679.4790847,
+      1693322679.479924,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFSMAC.py\", line 1629, in train\n    X, X_r = PCA_sklearn(X_scaled, svd_solver = config[\"svd_solver\"], n_components = config[\"n_components\"], power_iteration_normalizer=config[\"power_iteration_normalizer\"],\n                                                                                                                                        ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/ConfigSpace/configuration.py\", line 191, in __getitem__\n    raise KeyError(key)\nKeyError: 'power_iteration_normalizer'\n",
+        "error": "KeyError('power_iteration_normalizer')"
+      }
+    ],
+    [
+      2,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1693322679.481061,
+      1693322679.48181,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFSMAC.py\", line 1629, in train\n    X, X_r = PCA_sklearn(X_scaled, svd_solver = config[\"svd_solver\"], n_components = config[\"n_components\"], power_iteration_normalizer=config[\"power_iteration_normalizer\"],\n                                                                                                                                        ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/ConfigSpace/configuration.py\", line 191, in __getitem__\n    raise KeyError(key)\nKeyError: 'power_iteration_normalizer'\n",
+        "error": "KeyError('power_iteration_normalizer')"
+      }
+    ],
+    [
+      1,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1693322679.4832296,
+      1693322679.4839776,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFSMAC.py\", line 1629, in train\n    X, X_r = PCA_sklearn(X_scaled, svd_solver = config[\"svd_solver\"], n_components = config[\"n_components\"], power_iteration_normalizer=config[\"power_iteration_normalizer\"],\n                                                                                                                                        ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/ConfigSpace/configuration.py\", line 191, in __getitem__\n    raise KeyError(key)\nKeyError: 'power_iteration_normalizer'\n",
+        "error": "KeyError('power_iteration_normalizer')"
+      }
+    ],
+    [
+      3,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1693322679.5398128,
+      1693322679.5406134,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFSMAC.py\", line 1629, in train\n    X, X_r = PCA_sklearn(X_scaled, svd_solver = config[\"svd_solver\"], n_components = config[\"n_components\"], power_iteration_normalizer=config[\"power_iteration_normalizer\"],\n                                                                                                                                        ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/ConfigSpace/configuration.py\", line 191, in __getitem__\n    raise KeyError(key)\nKeyError: 'power_iteration_normalizer'\n",
+        "error": "KeyError('power_iteration_normalizer')"
+      }
+    ],
+    [
+      3,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1693322679.5417984,
+      1693322679.5425344,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFSMAC.py\", line 1629, in train\n    X, X_r = PCA_sklearn(X_scaled, svd_solver = config[\"svd_solver\"], n_components = config[\"n_components\"], power_iteration_normalizer=config[\"power_iteration_normalizer\"],\n                                                                                                                                        ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/ConfigSpace/configuration.py\", line 191, in __getitem__\n    raise KeyError(key)\nKeyError: 'power_iteration_normalizer'\n",
+        "error": "KeyError('power_iteration_normalizer')"
+      }
+    ],
+    [
+      3,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1693322679.5437217,
+      1693322679.5444708,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFSMAC.py\", line 1629, in train\n    X, X_r = PCA_sklearn(X_scaled, svd_solver = config[\"svd_solver\"], n_components = config[\"n_components\"], power_iteration_normalizer=config[\"power_iteration_normalizer\"],\n                                                                                                                                        ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/ConfigSpace/configuration.py\", line 191, in __getitem__\n    raise KeyError(key)\nKeyError: 'power_iteration_normalizer'\n",
+        "error": "KeyError('power_iteration_normalizer')"
+      }
+    ],
+    [
+      4,
+      null,
+      209652396,
+      null,
+      0.0,
+      1.2016332149505615,
+      1,
+      1693322679.5460458,
+      1693322680.7482233,
+      {}
+    ],
+    [
+      4,
+      null,
+      398764591,
+      null,
+      0.0,
+      0.18457555770874023,
+      1,
+      1693322680.7498674,
+      1693322680.9350255,
+      {}
+    ]
+  ],
+  "configs": {
+    "1": {
+      "n_components": 3,
+      "svd_solver": "full"
+    },
+    "2": {
+      "n_components": 5,
+      "svd_solver": "auto"
+    },
+    "3": {
+      "n_components": 4,
+      "svd_solver": "full"
+    },
+    "4": {
+      "n_components": 4,
+      "svd_solver": "randomized",
+      "n_oversamples": 10,
+      "power_iteration_normalizer": "QR"
+    }
+  },
+  "config_origins": {
+    "1": "Initial Design: Sobol",
+    "2": "Initial Design: Sobol",
+    "3": "Acquisition Function Maximizer: Random Search (sorted)",
+    "4": "Acquisition Function Maximizer: Random Search (sorted)"
+  }
+}

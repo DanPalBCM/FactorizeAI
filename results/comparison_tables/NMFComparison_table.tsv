@@ -1,0 +1,9 @@
+	optimized_method	score	incumbent
+0	PCA_sklearn	1.314400108756759e-31	{'n_components': 3, 'svd_solver': 'auto'}
+1	NMF_sklearn	0.0010192375820658895	{'alpha_W': 0.017273878478400173, 'init': 'nndsvd', 'l1_ratio': 0.5941561837434165, 'n_components': 6, 'solver': 'mu', 'verbose': 0, 'beta_loss': 'frobenius'}
+2	Truncated_SVD	6.526648738748862e-32	{'n_components': 14, 'n_iter': 4, 'n_oversamples': 10, 'power_iteration_normalizer': 'OR'}
+3	Incremental_PCA	1.4000997114376702e-31	{'batch_size': 117, 'n_components': 3}
+4	IndependentCA	2.3243329484963642e-30	{'algorithm': 'deflation', 'fun': 'cube', 'n_components': 3, 'whiten_solver': 'eigh'}
+5	MiniBatch_NMF	0.014361632906930485	{'alpha_W': 0.048904189505328266, 'batch_size': 160, 'beta_loss': 'kullback-leibler', 'init': 'nndsvd', 'l1_ratio': 0.16164330980367134, 'n_components': 5}
+6	Sparse_PCA	4.589327058031935e-05	{'alpha': 0.29133517966328615, 'method': 'cd', 'n_components': 14, 'ridge_alpha': 0.014218987350317007}
+7	MiniBatch_SparsePCA	8.352960756883132e-06	{'alpha': 0.9592367018572986, 'batch_size': 3, 'method': 'cd', 'n_components': 15, 'ridge_alpha': 0.010323922336101533}

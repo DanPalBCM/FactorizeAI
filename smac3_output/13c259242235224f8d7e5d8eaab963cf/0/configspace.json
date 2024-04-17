@@ -1,0 +1,91 @@
+{
+  "hyperparameters": [
+    {
+      "name": "angle",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.1,
+      "upper": 1.0,
+      "default": 0.5,
+      "q": null
+    },
+    {
+      "name": "early_exaggeration",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 5.0,
+      "upper": 50.0,
+      "default": 12.0,
+      "q": null
+    },
+    {
+      "name": "init",
+      "type": "categorical",
+      "choices": [
+        "random",
+        "pca"
+      ],
+      "default": "pca",
+      "weights": null
+    },
+    {
+      "name": "learning_rate",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 10.0,
+      "upper": 1000.0,
+      "default": 200.0,
+      "q": null
+    },
+    {
+      "name": "method",
+      "type": "categorical",
+      "choices": [
+        "barnes_hut",
+        "exact"
+      ],
+      "default": "barnes_hut",
+      "weights": null
+    },
+    {
+      "name": "n_components",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 2,
+      "upper": 3,
+      "default": 2,
+      "q": null
+    },
+    {
+      "name": "n_iter",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 250,
+      "upper": 1000,
+      "default": 1000,
+      "q": null
+    },
+    {
+      "name": "n_iter_without_progress",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 50,
+      "upper": 500,
+      "default": 300,
+      "q": null
+    },
+    {
+      "name": "perplexity",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 5.0,
+      "upper": 50.0,
+      "default": 30.0,
+      "q": null
+    }
+  ],
+  "conditions": [],
+  "forbiddens": [],
+  "python_module_version": "0.6.1",
+  "json_format_version": 0.4
+}

@@ -1,0 +1,179 @@
+{
+  "stats": {
+    "submitted": 10,
+    "finished": 10,
+    "running": 0
+  },
+  "data": [
+    [
+      1,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1692807941.1414185,
+      1692807941.143196,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/SMACautoMFtest.py\", line 80, in train\n    centers=n_clusters,\n            ^^^^^^^^^^\nNameError: name 'n_clusters' is not defined\n",
+        "error": "NameError(\"name 'n_clusters' is not defined\")"
+      }
+    ],
+    [
+      1,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1692807941.1459122,
+      1692807941.1472282,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/SMACautoMFtest.py\", line 80, in train\n    centers=n_clusters,\n            ^^^^^^^^^^\nNameError: name 'n_clusters' is not defined\n",
+        "error": "NameError(\"name 'n_clusters' is not defined\")"
+      }
+    ],
+    [
+      2,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1692807941.149624,
+      1692807941.1509256,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/SMACautoMFtest.py\", line 80, in train\n    centers=n_clusters,\n            ^^^^^^^^^^\nNameError: name 'n_clusters' is not defined\n",
+        "error": "NameError(\"name 'n_clusters' is not defined\")"
+      }
+    ],
+    [
+      2,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1692807941.1529622,
+      1692807941.1541948,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/SMACautoMFtest.py\", line 80, in train\n    centers=n_clusters,\n            ^^^^^^^^^^\nNameError: name 'n_clusters' is not defined\n",
+        "error": "NameError(\"name 'n_clusters' is not defined\")"
+      }
+    ],
+    [
+      1,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1692807941.1568782,
+      1692807941.158099,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/SMACautoMFtest.py\", line 80, in train\n    centers=n_clusters,\n            ^^^^^^^^^^\nNameError: name 'n_clusters' is not defined\n",
+        "error": "NameError(\"name 'n_clusters' is not defined\")"
+      }
+    ],
+    [
+      3,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1692807941.208859,
+      1692807941.2101166,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/SMACautoMFtest.py\", line 80, in train\n    centers=n_clusters,\n            ^^^^^^^^^^\nNameError: name 'n_clusters' is not defined\n",
+        "error": "NameError(\"name 'n_clusters' is not defined\")"
+      }
+    ],
+    [
+      3,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1692807941.212557,
+      1692807941.2137744,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/SMACautoMFtest.py\", line 80, in train\n    centers=n_clusters,\n            ^^^^^^^^^^\nNameError: name 'n_clusters' is not defined\n",
+        "error": "NameError(\"name 'n_clusters' is not defined\")"
+      }
+    ],
+    [
+      3,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1692807941.2351494,
+      1692807941.2364736,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/SMACautoMFtest.py\", line 80, in train\n    centers=n_clusters,\n            ^^^^^^^^^^\nNameError: name 'n_clusters' is not defined\n",
+        "error": "NameError(\"name 'n_clusters' is not defined\")"
+      }
+    ],
+    [
+      4,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1692807941.2411778,
+      1692807941.2424705,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/SMACautoMFtest.py\", line 80, in train\n    centers=n_clusters,\n            ^^^^^^^^^^\nNameError: name 'n_clusters' is not defined\n",
+        "error": "NameError(\"name 'n_clusters' is not defined\")"
+      }
+    ],
+    [
+      4,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1692807941.2447865,
+      1692807941.2460337,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/SMACautoMFtest.py\", line 80, in train\n    centers=n_clusters,\n            ^^^^^^^^^^\nNameError: name 'n_clusters' is not defined\n",
+        "error": "NameError(\"name 'n_clusters' is not defined\")"
+      }
+    ]
+  ],
+  "configs": {
+    "1": {
+      "n_components": 3
+    },
+    "2": {
+      "n_components": 4
+    },
+    "3": {
+      "n_components": 5
+    },
+    "4": {
+      "n_components": 2
+    }
+  },
+  "config_origins": {
+    "1": "Initial Design: Sobol",
+    "2": "Initial Design: Sobol",
+    "3": "Acquisition Function Maximizer: Random Search (sorted)",
+    "4": "Acquisition Function Maximizer: Local Search"
+  }
+}

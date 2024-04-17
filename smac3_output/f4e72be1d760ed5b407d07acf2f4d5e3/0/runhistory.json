@@ -1,0 +1,174 @@
+{
+  "stats": {
+    "submitted": 10,
+    "finished": 10,
+    "running": 0
+  },
+  "data": [
+    [
+      1,
+      null,
+      209652396,
+      null,
+      0.2907504829457225,
+      0.6239101886749268,
+      1,
+      1694797001.3442378,
+      1694797001.9913538,
+      {}
+    ],
+    [
+      1,
+      null,
+      398764591,
+      null,
+      0.2907504829457225,
+      0.5325050354003906,
+      1,
+      1694797001.9941077,
+      1694797002.527788,
+      {}
+    ],
+    [
+      2,
+      null,
+      209652396,
+      null,
+      0.5812038633540093,
+      0.31247830390930176,
+      1,
+      1694797002.5300999,
+      1694797002.843683,
+      {}
+    ],
+    [
+      2,
+      null,
+      398764591,
+      null,
+      0.5812038633540093,
+      0.28073573112487793,
+      1,
+      1694797002.8457427,
+      1694797003.127623,
+      {}
+    ],
+    [
+      1,
+      null,
+      924231285,
+      null,
+      0.2907504829457225,
+      0.39165687561035156,
+      1,
+      1694797003.130278,
+      1694797003.523089,
+      {}
+    ],
+    [
+      3,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1694797003.810034,
+      1694797003.8599396,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 1122, in train\n    def train(self, config: Configuration, seed: int = 0) -> float:\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 378, in Evaluation_metrics\n    score = silhouette_score(X, labels)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/metrics/cluster/_unsupervised.py\", line 117, in silhouette_score\n    return np.mean(silhouette_samples(X, labels, metric=metric, **kwds))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/metrics/cluster/_unsupervised.py\", line 212, in silhouette_samples\n    X, labels = check_X_y(X, labels, accept_sparse=[\"csc\", \"csr\"])\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/validation.py\", line 1106, in check_X_y\n    X = check_array(\n        ^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/validation.py\", line 921, in check_array\n    _assert_all_finite(\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/validation.py\", line 161, in _assert_all_finite\n    raise ValueError(msg_err)\nValueError: Input X contains NaN.\n",
+        "error": "ValueError('Input X contains NaN.')"
+      }
+    ],
+    [
+      3,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1694797003.862723,
+      1694797003.8985863,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 1122, in train\n    def train(self, config: Configuration, seed: int = 0) -> float:\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 378, in Evaluation_metrics\n    score = silhouette_score(X, labels)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/metrics/cluster/_unsupervised.py\", line 117, in silhouette_score\n    return np.mean(silhouette_samples(X, labels, metric=metric, **kwds))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/metrics/cluster/_unsupervised.py\", line 212, in silhouette_samples\n    X, labels = check_X_y(X, labels, accept_sparse=[\"csc\", \"csr\"])\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/validation.py\", line 1106, in check_X_y\n    X = check_array(\n        ^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/validation.py\", line 921, in check_array\n    _assert_all_finite(\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/validation.py\", line 161, in _assert_all_finite\n    raise ValueError(msg_err)\nValueError: Input X contains NaN.\n",
+        "error": "ValueError('Input X contains NaN.')"
+      }
+    ],
+    [
+      3,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1694797003.901263,
+      1694797003.938384,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 1122, in train\n    def train(self, config: Configuration, seed: int = 0) -> float:\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 378, in Evaluation_metrics\n    score = silhouette_score(X, labels)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/metrics/cluster/_unsupervised.py\", line 117, in silhouette_score\n    return np.mean(silhouette_samples(X, labels, metric=metric, **kwds))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/metrics/cluster/_unsupervised.py\", line 212, in silhouette_samples\n    X, labels = check_X_y(X, labels, accept_sparse=[\"csc\", \"csr\"])\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/validation.py\", line 1106, in check_X_y\n    X = check_array(\n        ^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/validation.py\", line 921, in check_array\n    _assert_all_finite(\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/validation.py\", line 161, in _assert_all_finite\n    raise ValueError(msg_err)\nValueError: Input X contains NaN.\n",
+        "error": "ValueError('Input X contains NaN.')"
+      }
+    ],
+    [
+      4,
+      null,
+      209652396,
+      null,
+      0.3066649189277163,
+      0.19415283203125,
+      1,
+      1694797003.9420211,
+      1694797004.1374073,
+      {}
+    ],
+    [
+      4,
+      null,
+      398764591,
+      null,
+      0.3066649189277163,
+      0.30399060249328613,
+      1,
+      1694797004.139779,
+      1694797004.4449203,
+      {}
+    ]
+  ],
+  "configs": {
+    "1": {
+      "eigen_solver": "auto",
+      "method": "modified",
+      "n_components": 2,
+      "n_neighbors": 7,
+      "neighbors_algorithm": "ball_tree"
+    },
+    "2": {
+      "eigen_solver": "dense",
+      "method": "modified",
+      "n_components": 4,
+      "n_neighbors": 13,
+      "neighbors_algorithm": "auto"
+    },
+    "3": {
+      "eigen_solver": "arpack",
+      "method": "ltsa",
+      "n_components": 2,
+      "n_neighbors": 6,
+      "neighbors_algorithm": "brute"
+    },
+    "4": {
+      "eigen_solver": "auto",
+      "method": "standard",
+      "n_components": 2,
+      "n_neighbors": 6,
+      "neighbors_algorithm": "kd_tree"
+    }
+  },
+  "config_origins": {
+    "1": "Initial Design: Sobol",
+    "2": "Initial Design: Sobol",
+    "3": "Acquisition Function Maximizer: Random Search (sorted)",
+    "4": "Acquisition Function Maximizer: Local Search"
+  }
+}

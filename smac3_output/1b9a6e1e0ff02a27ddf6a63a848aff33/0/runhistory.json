@@ -1,0 +1,183 @@
+{
+  "stats": {
+    "submitted": 10,
+    "finished": 10,
+    "running": 0
+  },
+  "data": [
+    [
+      1,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1693326793.8362048,
+      1693326793.8398716,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFSMAC.py\", line 2140, in train\n    X, X_r = Iso_map(X_scaled, **config_dict)\n       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: Iso_map() got an unexpected keyword argument 'n_components'\n",
+        "error": "TypeError(\"Iso_map() got an unexpected keyword argument 'n_components'\")"
+      }
+    ],
+    [
+      1,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1693326793.8509555,
+      1693326793.8525014,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFSMAC.py\", line 2140, in train\n    X, X_r = Iso_map(X_scaled, **config_dict)\n       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: Iso_map() got an unexpected keyword argument 'n_components'\n",
+        "error": "TypeError(\"Iso_map() got an unexpected keyword argument 'n_components'\")"
+      }
+    ],
+    [
+      2,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1693326793.859199,
+      1693326793.8607607,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFSMAC.py\", line 2140, in train\n    X, X_r = Iso_map(X_scaled, **config_dict)\n       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: Iso_map() got an unexpected keyword argument 'n_components'\n",
+        "error": "TypeError(\"Iso_map() got an unexpected keyword argument 'n_components'\")"
+      }
+    ],
+    [
+      2,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1693326793.8679125,
+      1693326793.8694425,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFSMAC.py\", line 2140, in train\n    X, X_r = Iso_map(X_scaled, **config_dict)\n       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: Iso_map() got an unexpected keyword argument 'n_components'\n",
+        "error": "TypeError(\"Iso_map() got an unexpected keyword argument 'n_components'\")"
+      }
+    ],
+    [
+      1,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1693326793.876856,
+      1693326793.8783708,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFSMAC.py\", line 2140, in train\n    X, X_r = Iso_map(X_scaled, **config_dict)\n       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: Iso_map() got an unexpected keyword argument 'n_components'\n",
+        "error": "TypeError(\"Iso_map() got an unexpected keyword argument 'n_components'\")"
+      }
+    ],
+    [
+      3,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1693326794.0376189,
+      1693326794.0390458,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFSMAC.py\", line 2140, in train\n    X, X_r = Iso_map(X_scaled, **config_dict)\n       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: Iso_map() got an unexpected keyword argument 'n_components'\n",
+        "error": "TypeError(\"Iso_map() got an unexpected keyword argument 'n_components'\")"
+      }
+    ],
+    [
+      3,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1693326794.0415723,
+      1693326794.0429573,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFSMAC.py\", line 2140, in train\n    X, X_r = Iso_map(X_scaled, **config_dict)\n       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: Iso_map() got an unexpected keyword argument 'n_components'\n",
+        "error": "TypeError(\"Iso_map() got an unexpected keyword argument 'n_components'\")"
+      }
+    ],
+    [
+      3,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1693326794.0451674,
+      1693326794.0465066,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFSMAC.py\", line 2140, in train\n    X, X_r = Iso_map(X_scaled, **config_dict)\n       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: Iso_map() got an unexpected keyword argument 'n_components'\n",
+        "error": "TypeError(\"Iso_map() got an unexpected keyword argument 'n_components'\")"
+      }
+    ],
+    [
+      4,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1693326794.0493932,
+      1693326794.0507476,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFSMAC.py\", line 2140, in train\n    X, X_r = Iso_map(X_scaled, **config_dict)\n       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: Iso_map() got an unexpected keyword argument 'n_components'\n",
+        "error": "TypeError(\"Iso_map() got an unexpected keyword argument 'n_components'\")"
+      }
+    ],
+    [
+      4,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1693326794.0530963,
+      1693326794.0544577,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFSMAC.py\", line 2140, in train\n    X, X_r = Iso_map(X_scaled, **config_dict)\n       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: Iso_map() got an unexpected keyword argument 'n_components'\n",
+        "error": "TypeError(\"Iso_map() got an unexpected keyword argument 'n_components'\")"
+      }
+    ]
+  ],
+  "configs": {
+    "1": {
+      "n_components": 2,
+      "n_neighbors": 11
+    },
+    "2": {
+      "n_components": 3,
+      "n_neighbors": 7
+    },
+    "3": {
+      "n_components": 3,
+      "n_neighbors": 5
+    },
+    "4": {
+      "n_components": 3,
+      "n_neighbors": 9
+    }
+  },
+  "config_origins": {
+    "1": "Initial Design: Sobol",
+    "2": "Initial Design: Sobol",
+    "3": "Acquisition Function Maximizer: Random Search (sorted)",
+    "4": "Acquisition Function Maximizer: Random Search (sorted)"
+  }
+}

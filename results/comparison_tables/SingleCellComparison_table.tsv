@@ -1,0 +1,17 @@
+	optimized_method	score	incumbent
+0	PCA_sklearn	0.52069645678756	{'n_components': 2, 'svd_solver': 'randomized', 'n_oversamples': 8, 'power_iteration_normalizer': 'auto'}
+1	NMF_sklearn	0.5349923629139532	{'alpha_W': 0.5868929430015201, 'init': 'random', 'l1_ratio': 0.11143798456449737, 'n_components': 14, 'solver': 'mu', 'verbose': 1, 'beta_loss': 'kullback-leibler'}
+2	Truncated_SVD	0.4143026868890748	{'n_components': 2, 'n_iter': 3, 'n_oversamples': 10, 'power_iteration_normalizer': 'LU'}
+3	Incremental_PCA	0.5591752894307541	{'batch_size': 98, 'n_components': 12}
+4	IndependentCA	0.37341101872726734	{'algorithm': 'deflation', 'fun': 'logcosh', 'n_components': 15, 'whiten_solver': 'svd'}
+5	MiniBatch_NMF	0.146362772805264	{'alpha_W': 0.28388551583176547, 'batch_size': 1341, 'beta_loss': 'frobenius', 'init': 'nndsvdar', 'l1_ratio': 0.28618486145457844, 'n_components': 11}
+6	Sparse_PCA	0.5356475163945899	{'alpha': 0.17153537732415391, 'method': 'cd', 'n_components': 14, 'ridge_alpha': 0.09760528310690084}
+7	MiniBatch_SparsePCA	0.6080000241512418	{'alpha': 0.534446463814666, 'batch_size': 3, 'method': 'cd', 'n_components': 11, 'ridge_alpha': 0.07051150235912147}
+8	Factor_Analysis	0.6438474670836594	{'iterated_power': 5, 'n_components': 6, 'rotation': 'quartimax', 'svd_method': 'randomized'}
+9	LDA	0.06899919089810025	{'learning_decay': 0.872087011032378, 'learning_method': 'batch', 'learning_offset': 5.422697086455924, 'max_iter': 14, 'n_components': 2}
+10	t_SNE	0.08409875631332397	{'angle': 0.7997621418908238, 'early_exaggeration': 14.138102843426168, 'init': 'pca', 'learning_rate': 767.6541746348772, 'method': 'barnes_hut', 'n_components': 3, 'n_iter': 304, 'n_iter_without_progress': 181, 'perplexity': 5.4076589201007454}
+11	Iso_map	0.5343733471872516	{'eigen_solver': 'auto', 'n_components': 2, 'n_neighbors': 7, 'neighbors_algorithm': 'auto', 'path_method': 'D'}
+12	Local_Linear_Embedding	0.5135788774859101	{'eigen_solver': 'auto', 'method': 'ltsa', 'n_components': 3, 'n_neighbors': 26, 'neighbors_algorithm': 'kd_tree'}
+13	Multidimensional_scaling	0.5362464304629067	{'dissimilarity': 'euclidean', 'n_components': 2, 'n_init': 3}
+14	Spectral_Embedding	0.44669036251332106	{'affinity': 'nearest_neighbors', 'eigen_solver': 'lobpcg', 'n_components': 2}
+15	U_MAP	0.2203538417816162	{'metric': 'correlation', 'min_dist': 0.954026132896019, 'n_components': 2, 'n_neighbors': 16}

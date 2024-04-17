@@ -1,0 +1,65 @@
+{
+  "hyperparameters": [
+    {
+      "name": "n_components",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 2,
+      "upper": 14,
+      "default": 3,
+      "q": null
+    },
+    {
+      "name": "svd_solver",
+      "type": "categorical",
+      "choices": [
+        "auto",
+        "full",
+        "randomized"
+      ],
+      "default": "auto",
+      "weights": null
+    },
+    {
+      "name": "n_oversamples",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 3,
+      "upper": 11,
+      "default": 10,
+      "q": null
+    },
+    {
+      "name": "power_iteration_normalizer",
+      "type": "categorical",
+      "choices": [
+        "auto",
+        "QR",
+        "LU"
+      ],
+      "default": "auto",
+      "weights": null
+    }
+  ],
+  "conditions": [
+    {
+      "child": "n_oversamples",
+      "parent": "svd_solver",
+      "type": "IN",
+      "values": [
+        "randomized"
+      ]
+    },
+    {
+      "child": "power_iteration_normalizer",
+      "parent": "svd_solver",
+      "type": "IN",
+      "values": [
+        "randomized"
+      ]
+    }
+  ],
+  "forbiddens": [],
+  "python_module_version": "0.6.1",
+  "json_format_version": 0.4
+}

@@ -1,0 +1,161 @@
+{
+  "stats": {
+    "submitted": 10,
+    "finished": 10,
+    "running": 0
+  },
+  "data": [
+    [
+      1,
+      null,
+      209652396,
+      null,
+      0.7340663192107433,
+      1.3347156047821045,
+      1,
+      1694793719.645845,
+      1694793720.9818394,
+      {}
+    ],
+    [
+      1,
+      null,
+      398764591,
+      null,
+      0.7340663192107433,
+      0.2585432529449463,
+      1,
+      1694793720.9851193,
+      1694793721.2449286,
+      {}
+    ],
+    [
+      2,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1694793721.2476418,
+      1694793721.267518,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 607, in train\n    X, X_r = PCA_sklearn(X_scaled, **config_dict)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 36, in PCA_sklearn\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_pca.py\", line 462, in fit_transform\n    U, S, Vt = self._fit(X)\n               ^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_pca.py\", line 512, in _fit\n    return self._fit_full(X, n_components)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_pca.py\", line 526, in _fit_full\n    raise ValueError(\nValueError: n_components=5 must be between 0 and min(n_samples, n_features)=4 with svd_solver='full'\n",
+        "error": "ValueError(\"n_components=5 must be between 0 and min(n_samples, n_features)=4 with svd_solver='full'\")"
+      }
+    ],
+    [
+      2,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1694793721.270067,
+      1694793721.2721932,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 607, in train\n    X, X_r = PCA_sklearn(X_scaled, **config_dict)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 36, in PCA_sklearn\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_pca.py\", line 462, in fit_transform\n    U, S, Vt = self._fit(X)\n               ^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_pca.py\", line 512, in _fit\n    return self._fit_full(X, n_components)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_pca.py\", line 526, in _fit_full\n    raise ValueError(\nValueError: n_components=5 must be between 0 and min(n_samples, n_features)=4 with svd_solver='full'\n",
+        "error": "ValueError(\"n_components=5 must be between 0 and min(n_samples, n_features)=4 with svd_solver='full'\")"
+      }
+    ],
+    [
+      1,
+      null,
+      924231285,
+      null,
+      0.7340663192107433,
+      0.3391599655151367,
+      1,
+      1694793721.2753198,
+      1694793721.6156404,
+      {}
+    ],
+    [
+      3,
+      null,
+      209652396,
+      null,
+      0.7026618587921338,
+      0.14742732048034668,
+      1,
+      1694793721.8100276,
+      1694793721.9586947,
+      {}
+    ],
+    [
+      3,
+      null,
+      398764591,
+      null,
+      0.7026618587921338,
+      0.12690377235412598,
+      1,
+      1694793721.9613936,
+      1694793722.0895374,
+      {}
+    ],
+    [
+      3,
+      null,
+      924231285,
+      null,
+      0.7026618587921338,
+      0.17043042182922363,
+      1,
+      1694793722.0918288,
+      1694793722.2633133,
+      {}
+    ],
+    [
+      4,
+      null,
+      209652396,
+      null,
+      0.7026618588131177,
+      0.23216032981872559,
+      1,
+      1694793722.2696438,
+      1694793722.5030205,
+      {}
+    ],
+    [
+      4,
+      null,
+      398764591,
+      null,
+      0.7026618588131173,
+      0.2217426300048828,
+      1,
+      1694793722.5053594,
+      1694793722.728342,
+      {}
+    ]
+  ],
+  "configs": {
+    "1": {
+      "n_components": 3,
+      "svd_solver": "full"
+    },
+    "2": {
+      "n_components": 5,
+      "svd_solver": "auto"
+    },
+    "3": {
+      "n_components": 4,
+      "svd_solver": "full"
+    },
+    "4": {
+      "n_components": 4,
+      "svd_solver": "randomized",
+      "n_oversamples": 10,
+      "power_iteration_normalizer": "QR"
+    }
+  },
+  "config_origins": {
+    "1": "Initial Design: Sobol",
+    "2": "Initial Design: Sobol",
+    "3": "Acquisition Function Maximizer: Random Search (sorted)",
+    "4": "Acquisition Function Maximizer: Random Search (sorted)"
+  }
+}

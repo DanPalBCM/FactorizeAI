@@ -1,0 +1,178 @@
+{
+  "stats": {
+    "submitted": 10,
+    "finished": 10,
+    "running": 0
+  },
+  "data": [
+    [
+      1,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1695913766.0780065,
+      1695913766.0797615,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 691, in train\n    X, X_r = NMF_sklearn(X_scaled, **config_dict)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 28, in NMF_sklearn\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_nmf.py\", line 1566, in fit_transform\n    W, H, n_iter = self._fit_transform(X, W=W, H=H)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_nmf.py\", line 1618, in _fit_transform\n    raise ValueError(\nValueError: When beta_loss <= 0 and X contains zeros, the solver may diverge. Please add small values to X, or use a positive beta_loss.\n",
+        "error": "ValueError('When beta_loss <= 0 and X contains zeros, the solver may diverge. Please add small values to X, or use a positive beta_loss.')"
+      }
+    ],
+    [
+      1,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1695913766.0814216,
+      1695913766.0828617,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 691, in train\n    X, X_r = NMF_sklearn(X_scaled, **config_dict)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 28, in NMF_sklearn\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_nmf.py\", line 1566, in fit_transform\n    W, H, n_iter = self._fit_transform(X, W=W, H=H)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_nmf.py\", line 1618, in _fit_transform\n    raise ValueError(\nValueError: When beta_loss <= 0 and X contains zeros, the solver may diverge. Please add small values to X, or use a positive beta_loss.\n",
+        "error": "ValueError('When beta_loss <= 0 and X contains zeros, the solver may diverge. Please add small values to X, or use a positive beta_loss.')"
+      }
+    ],
+    [
+      2,
+      null,
+      209652396,
+      null,
+      0.058337549758321505,
+      0.16206145286560059,
+      1,
+      1695913766.0845227,
+      1695913766.2473223,
+      {}
+    ],
+    [
+      2,
+      null,
+      398764591,
+      null,
+      0.053870772570594694,
+      0.13855195045471191,
+      1,
+      1695913766.2491295,
+      1695913766.3885,
+      {}
+    ],
+    [
+      2,
+      null,
+      924231285,
+      null,
+      0.05865265191380642,
+      0.13863730430603027,
+      1,
+      1695913766.390968,
+      1695913766.5305367,
+      {}
+    ],
+    [
+      3,
+      null,
+      209652396,
+      null,
+      0.0853231473006082,
+      0.06833100318908691,
+      1,
+      1695913766.6778693,
+      1695913766.7469335,
+      {}
+    ],
+    [
+      3,
+      null,
+      398764591,
+      null,
+      0.08631460631045473,
+      0.06776714324951172,
+      1,
+      1695913766.7487135,
+      1695913766.8172238,
+      {}
+    ],
+    [
+      3,
+      null,
+      924231285,
+      null,
+      0.08912536169668372,
+      0.0681295394897461,
+      1,
+      1695913766.8189864,
+      1695913766.8878522,
+      {}
+    ],
+    [
+      4,
+      null,
+      209652396,
+      null,
+      0.07649370227191243,
+      0.05711817741394043,
+      1,
+      1695913766.8902285,
+      1695913766.9480758,
+      {}
+    ],
+    [
+      4,
+      null,
+      398764591,
+      null,
+      0.07649370227266883,
+      0.052602529525756836,
+      1,
+      1695913766.9499214,
+      1695913767.003274,
+      {}
+    ]
+  ],
+  "configs": {
+    "1": {
+      "alpha_W": 0.24019066896289587,
+      "init": "nndsvda",
+      "l1_ratio": 0.09675709353759886,
+      "n_components": 12,
+      "solver": "mu",
+      "verbose": 0,
+      "beta_loss": "itakura-saito"
+    },
+    "2": {
+      "alpha_W": 0.46588086588308214,
+      "init": "random",
+      "l1_ratio": 0.7556943319737911,
+      "n_components": 50,
+      "solver": "cd",
+      "verbose": 1
+    },
+    "3": {
+      "alpha_W": 0.8025957007038718,
+      "init": "random",
+      "l1_ratio": 0.7024762586578099,
+      "n_components": 39,
+      "solver": "mu",
+      "verbose": 0,
+      "beta_loss": "frobenius"
+    },
+    "4": {
+      "alpha_W": 0.6436704297351775,
+      "init": "nndsvd",
+      "l1_ratio": 0.7493578609931442,
+      "n_components": 33,
+      "solver": "mu",
+      "verbose": 0,
+      "beta_loss": "kullback-leibler"
+    }
+  },
+  "config_origins": {
+    "1": "Initial Design: Sobol",
+    "2": "Initial Design: Sobol",
+    "3": "Acquisition Function Maximizer: Random Search (sorted)",
+    "4": "Acquisition Function Maximizer: Random Search (sorted)"
+  }
+}

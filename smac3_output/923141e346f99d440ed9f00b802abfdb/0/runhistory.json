@@ -1,0 +1,30 @@
+{
+  "stats": {
+    "submitted": 1,
+    "finished": 1,
+    "running": 0
+  },
+  "data": [
+    [
+      1,
+      null,
+      209652396,
+      null,
+      1.0037377245291206,
+      2419.494283437729,
+      1,
+      1696265420.7557268,
+      1696267840.2515543,
+      {}
+    ]
+  ],
+  "configs": {
+    "1": {
+      "n_components": 210,
+      "svd_solver": "full"
+    }
+  },
+  "config_origins": {
+    "1": "Initial Design: Sobol"
+  }
+}

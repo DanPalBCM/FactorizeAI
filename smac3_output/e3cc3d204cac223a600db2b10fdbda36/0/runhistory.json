@@ -1,0 +1,185 @@
+{
+  "stats": {
+    "submitted": 10,
+    "finished": 10,
+    "running": 0
+  },
+  "data": [
+    [
+      1,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1694031559.7970417,
+      1694031559.7988436,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO.py\", line 637, in train\n    X, X_r = NMF_sklearn(X_scaled, **config_dict)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO.py\", line 26, in NMF_sklearn\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_nmf.py\", line 1566, in fit_transform\n    W, H, n_iter = self._fit_transform(X, W=W, H=H)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_nmf.py\", line 1615, in _fit_transform\n    self._check_params(X)\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_nmf.py\", line 1519, in _check_params\n    raise ValueError(\nValueError: Invalid beta_loss parameter: solver 'cd' does not handle beta_loss = 'kullback-leibler'\n",
+        "error": "ValueError(\"Invalid beta_loss parameter: solver 'cd' does not handle beta_loss = 'kullback-leibler'\")"
+      }
+    ],
+    [
+      1,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1694031559.8004026,
+      1694031559.8016288,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO.py\", line 637, in train\n    X, X_r = NMF_sklearn(X_scaled, **config_dict)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO.py\", line 26, in NMF_sklearn\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_nmf.py\", line 1566, in fit_transform\n    W, H, n_iter = self._fit_transform(X, W=W, H=H)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_nmf.py\", line 1615, in _fit_transform\n    self._check_params(X)\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_nmf.py\", line 1519, in _check_params\n    raise ValueError(\nValueError: Invalid beta_loss parameter: solver 'cd' does not handle beta_loss = 'kullback-leibler'\n",
+        "error": "ValueError(\"Invalid beta_loss parameter: solver 'cd' does not handle beta_loss = 'kullback-leibler'\")"
+      }
+    ],
+    [
+      2,
+      null,
+      209652396,
+      null,
+      0.9981223646118109,
+      0.033934593200683594,
+      1,
+      1694031559.8031418,
+      1694031559.837943,
+      {}
+    ],
+    [
+      2,
+      null,
+      398764591,
+      null,
+      0.9981223646118109,
+      0.041802406311035156,
+      1,
+      1694031559.8394704,
+      1694031559.881955,
+      {}
+    ],
+    [
+      2,
+      null,
+      924231285,
+      null,
+      0.9981223646118109,
+      0.03227996826171875,
+      1,
+      1694031559.8842585,
+      1694031559.91726,
+      {}
+    ],
+    [
+      3,
+      null,
+      209652396,
+      null,
+      0.9981223646118109,
+      0.03934526443481445,
+      1,
+      1694031560.0486705,
+      1694031560.0887463,
+      {}
+    ],
+    [
+      3,
+      null,
+      398764591,
+      null,
+      0.9981223646118109,
+      0.03224444389343262,
+      1,
+      1694031560.0905485,
+      1694031560.1235056,
+      {}
+    ],
+    [
+      3,
+      null,
+      924231285,
+      null,
+      0.9981223646118109,
+      0.0452730655670166,
+      1,
+      1694031560.1253054,
+      1694031560.1713004,
+      {}
+    ],
+    [
+      4,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1694031560.1736891,
+      1694031560.1750853,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO.py\", line 637, in train\n    X, X_r = NMF_sklearn(X_scaled, **config_dict)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO.py\", line 26, in NMF_sklearn\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_nmf.py\", line 1566, in fit_transform\n    W, H, n_iter = self._fit_transform(X, W=W, H=H)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_nmf.py\", line 1615, in _fit_transform\n    self._check_params(X)\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_nmf.py\", line 1519, in _check_params\n    raise ValueError(\nValueError: Invalid beta_loss parameter: solver 'cd' does not handle beta_loss = 'kullback-leibler'\n",
+        "error": "ValueError(\"Invalid beta_loss parameter: solver 'cd' does not handle beta_loss = 'kullback-leibler'\")"
+      }
+    ],
+    [
+      4,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1694031560.1769164,
+      1694031560.1781824,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO.py\", line 637, in train\n    X, X_r = NMF_sklearn(X_scaled, **config_dict)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO.py\", line 26, in NMF_sklearn\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_nmf.py\", line 1566, in fit_transform\n    W, H, n_iter = self._fit_transform(X, W=W, H=H)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_nmf.py\", line 1615, in _fit_transform\n    self._check_params(X)\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_nmf.py\", line 1519, in _check_params\n    raise ValueError(\nValueError: Invalid beta_loss parameter: solver 'cd' does not handle beta_loss = 'kullback-leibler'\n",
+        "error": "ValueError(\"Invalid beta_loss parameter: solver 'cd' does not handle beta_loss = 'kullback-leibler'\")"
+      }
+    ]
+  ],
+  "configs": {
+    "1": {
+      "alpha_W": 0.2668785210698843,
+      "beta_loss": "kullback-leibler",
+      "init": "random",
+      "l1_ratio": 0.21177623700350523,
+      "n_components": 5,
+      "solver": "cd",
+      "verbose": 1
+    },
+    "2": {
+      "alpha_W": 0.517645406536758,
+      "beta_loss": "frobenius",
+      "init": "nndsvdar",
+      "l1_ratio": 0.9935366492718458,
+      "n_components": 2,
+      "solver": "mu",
+      "verbose": 0
+    },
+    "3": {
+      "alpha_W": 0.8917730007820798,
+      "beta_loss": "frobenius",
+      "init": "nndsvdar",
+      "l1_ratio": 0.7742336894342167,
+      "n_components": 4,
+      "solver": "cd",
+      "verbose": 0
+    },
+    "4": {
+      "alpha_W": 0.7151893663724195,
+      "beta_loss": "kullback-leibler",
+      "init": "nndsvdar",
+      "l1_ratio": 0.6399210213275238,
+      "n_components": 4,
+      "solver": "cd",
+      "verbose": 0
+    }
+  },
+  "config_origins": {
+    "1": "Initial Design: Sobol",
+    "2": "Initial Design: Sobol",
+    "3": "Acquisition Function Maximizer: Random Search (sorted)",
+    "4": "Acquisition Function Maximizer: Random Search (sorted)"
+  }
+}

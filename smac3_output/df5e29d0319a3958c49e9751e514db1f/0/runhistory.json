@@ -1,0 +1,174 @@
+{
+  "stats": {
+    "submitted": 10,
+    "finished": 10,
+    "running": 0
+  },
+  "data": [
+    [
+      1,
+      null,
+      209652396,
+      null,
+      0.5827955817313815,
+      0.5552856922149658,
+      1,
+      1695143255.3835819,
+      1695143255.9400778,
+      {}
+    ],
+    [
+      1,
+      null,
+      398764591,
+      null,
+      0.5827955817313815,
+      0.5393195152282715,
+      1,
+      1695143255.9425642,
+      1695143256.483028,
+      {}
+    ],
+    [
+      2,
+      null,
+      209652396,
+      null,
+      0.879916782824264,
+      0.9065835475921631,
+      1,
+      1695143256.485592,
+      1695143257.393305,
+      {}
+    ],
+    [
+      2,
+      null,
+      398764591,
+      null,
+      0.879916782824264,
+      1.1727490425109863,
+      1,
+      1695143257.3955846,
+      1695143258.5696075,
+      {}
+    ],
+    [
+      1,
+      null,
+      924231285,
+      null,
+      0.5827955817313815,
+      0.8747787475585938,
+      1,
+      1695143258.5725336,
+      1695143259.4486032,
+      {}
+    ],
+    [
+      3,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1695143259.7749531,
+      1695143259.7786212,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 1138, in train\n    X, X_r = Local_Linear_Embedding(X_scaled, **config_dict)\n       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 165, in Local_Linear_Embedding\n    X_hat = transformer.fit_transform(X)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/manifold/_locally_linear.py\", line 799, in fit_transform\n    self._fit_transform(X)\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/manifold/_locally_linear.py\", line 746, in _fit_transform\n    self.embedding_, self.reconstruction_error_ = locally_linear_embedding(\n                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/manifold/_locally_linear.py\", line 409, in locally_linear_embedding\n    raise ValueError(\"modified LLE requires n_neighbors >= n_components\")\nValueError: modified LLE requires n_neighbors >= n_components\n",
+        "error": "ValueError('modified LLE requires n_neighbors >= n_components')"
+      }
+    ],
+    [
+      3,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1695143259.782997,
+      1695143259.786225,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 1138, in train\n    X, X_r = Local_Linear_Embedding(X_scaled, **config_dict)\n       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 165, in Local_Linear_Embedding\n    X_hat = transformer.fit_transform(X)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/manifold/_locally_linear.py\", line 799, in fit_transform\n    self._fit_transform(X)\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/manifold/_locally_linear.py\", line 746, in _fit_transform\n    self.embedding_, self.reconstruction_error_ = locally_linear_embedding(\n                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/manifold/_locally_linear.py\", line 409, in locally_linear_embedding\n    raise ValueError(\"modified LLE requires n_neighbors >= n_components\")\nValueError: modified LLE requires n_neighbors >= n_components\n",
+        "error": "ValueError('modified LLE requires n_neighbors >= n_components')"
+      }
+    ],
+    [
+      3,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1695143259.7902722,
+      1695143259.7933784,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 1138, in train\n    X, X_r = Local_Linear_Embedding(X_scaled, **config_dict)\n       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 165, in Local_Linear_Embedding\n    X_hat = transformer.fit_transform(X)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/manifold/_locally_linear.py\", line 799, in fit_transform\n    self._fit_transform(X)\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/manifold/_locally_linear.py\", line 746, in _fit_transform\n    self.embedding_, self.reconstruction_error_ = locally_linear_embedding(\n                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/manifold/_locally_linear.py\", line 409, in locally_linear_embedding\n    raise ValueError(\"modified LLE requires n_neighbors >= n_components\")\nValueError: modified LLE requires n_neighbors >= n_components\n",
+        "error": "ValueError('modified LLE requires n_neighbors >= n_components')"
+      }
+    ],
+    [
+      4,
+      null,
+      209652396,
+      null,
+      0.7765221102804927,
+      1.0104928016662598,
+      1,
+      1695143259.7977843,
+      1695143260.8096018,
+      {}
+    ],
+    [
+      4,
+      null,
+      398764591,
+      null,
+      0.7765221102804927,
+      0.6749320030212402,
+      1,
+      1695143260.8123405,
+      1695143261.4885166,
+      {}
+    ]
+  ],
+  "configs": {
+    "1": {
+      "eigen_solver": "auto",
+      "method": "modified",
+      "n_components": 3,
+      "n_neighbors": 7,
+      "neighbors_algorithm": "ball_tree"
+    },
+    "2": {
+      "eigen_solver": "dense",
+      "method": "modified",
+      "n_components": 12,
+      "n_neighbors": 13,
+      "neighbors_algorithm": "auto"
+    },
+    "3": {
+      "eigen_solver": "auto",
+      "method": "modified",
+      "n_components": 12,
+      "n_neighbors": 9,
+      "neighbors_algorithm": "ball_tree"
+    },
+    "4": {
+      "eigen_solver": "auto",
+      "method": "modified",
+      "n_components": 6,
+      "n_neighbors": 13,
+      "neighbors_algorithm": "ball_tree"
+    }
+  },
+  "config_origins": {
+    "1": "Initial Design: Sobol",
+    "2": "Initial Design: Sobol",
+    "3": "Acquisition Function Maximizer: Local Search",
+    "4": "Acquisition Function Maximizer: Local Search"
+  }
+}

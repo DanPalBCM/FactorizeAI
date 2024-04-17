@@ -1,0 +1,1532 @@
+{
+  "stats": {
+    "submitted": 100,
+    "finished": 100,
+    "running": 0
+  },
+  "data": [
+    [
+      1,
+      null,
+      209652396,
+      null,
+      0.657914208372155,
+      1.2051277160644531,
+      1,
+      1703638753.7560246,
+      1703638754.962441,
+      {}
+    ],
+    [
+      1,
+      null,
+      398764591,
+      null,
+      0.657914208372155,
+      1.7558448314666748,
+      1,
+      1703638754.965975,
+      1703638756.7227306,
+      {}
+    ],
+    [
+      2,
+      null,
+      209652396,
+      null,
+      0.4077507729281159,
+      0.26462650299072266,
+      1,
+      1703638756.7245736,
+      1703638756.9901006,
+      {}
+    ],
+    [
+      2,
+      null,
+      398764591,
+      null,
+      0.4077507729281159,
+      0.43156981468200684,
+      1,
+      1703638756.9917083,
+      1703638757.4241643,
+      {}
+    ],
+    [
+      2,
+      null,
+      924231285,
+      null,
+      0.4077507729281159,
+      0.37323999404907227,
+      1,
+      1703638757.4266052,
+      1703638757.800748,
+      {}
+    ],
+    [
+      3,
+      null,
+      209652396,
+      null,
+      0.657914208371073,
+      0.3174593448638916,
+      1,
+      1703638757.802753,
+      1703638758.1210885,
+      {}
+    ],
+    [
+      3,
+      null,
+      398764591,
+      null,
+      0.6579142083713949,
+      0.470628023147583,
+      1,
+      1703638758.1229339,
+      1703638758.5944486,
+      {}
+    ],
+    [
+      3,
+      null,
+      924231285,
+      null,
+      0.6579142083718139,
+      0.6554913520812988,
+      1,
+      1703638758.5963197,
+      1703638759.252712,
+      {}
+    ],
+    [
+      4,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1703638759.2552018,
+      1703638759.2665153,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 876, in train\n    X, X_r = IndependentCA(X_scaled, **config_dict)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 124, in IndependentCA\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 708, in fit_transform\n    return self._fit_transform(X, compute_sources=True)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 654, in _fit_transform\n    W, n_iter = _ica_par(X1, **kwargs)\n                ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 113, in _ica_par\n    W1 = _sym_decorrelation(np.dot(gwtx, X.T) / p_ - g_wtx[:, np.newaxis] * W)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 56, in _sym_decorrelation\n    s, u = linalg.eigh(np.dot(W, W.T))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/linalg/_decomp.py\", line 461, in eigh\n    a1 = _asarray_validated(a, check_finite=check_finite)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/_lib/_util.py\", line 252, in _asarray_validated\n    a = toarray(a)\n        ^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/numpy/lib/function_base.py\", line 628, in asarray_chkfinite\n    raise ValueError(\nValueError: array must not contain infs or NaNs\n",
+        "error": "ValueError('array must not contain infs or NaNs')"
+      }
+    ],
+    [
+      4,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1703638759.2727509,
+      1703638759.2860878,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 876, in train\n    X, X_r = IndependentCA(X_scaled, **config_dict)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 124, in IndependentCA\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 708, in fit_transform\n    return self._fit_transform(X, compute_sources=True)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 654, in _fit_transform\n    W, n_iter = _ica_par(X1, **kwargs)\n                ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 113, in _ica_par\n    W1 = _sym_decorrelation(np.dot(gwtx, X.T) / p_ - g_wtx[:, np.newaxis] * W)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 56, in _sym_decorrelation\n    s, u = linalg.eigh(np.dot(W, W.T))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/linalg/_decomp.py\", line 461, in eigh\n    a1 = _asarray_validated(a, check_finite=check_finite)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/_lib/_util.py\", line 252, in _asarray_validated\n    a = toarray(a)\n        ^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/numpy/lib/function_base.py\", line 628, in asarray_chkfinite\n    raise ValueError(\nValueError: array must not contain infs or NaNs\n",
+        "error": "ValueError('array must not contain infs or NaNs')"
+      }
+    ],
+    [
+      4,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1703638759.2878897,
+      1703638759.294741,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 876, in train\n    X, X_r = IndependentCA(X_scaled, **config_dict)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 124, in IndependentCA\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 708, in fit_transform\n    return self._fit_transform(X, compute_sources=True)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 654, in _fit_transform\n    W, n_iter = _ica_par(X1, **kwargs)\n                ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 113, in _ica_par\n    W1 = _sym_decorrelation(np.dot(gwtx, X.T) / p_ - g_wtx[:, np.newaxis] * W)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 56, in _sym_decorrelation\n    s, u = linalg.eigh(np.dot(W, W.T))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/linalg/_decomp.py\", line 461, in eigh\n    a1 = _asarray_validated(a, check_finite=check_finite)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/_lib/_util.py\", line 252, in _asarray_validated\n    a = toarray(a)\n        ^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/numpy/lib/function_base.py\", line 628, in asarray_chkfinite\n    raise ValueError(\nValueError: array must not contain infs or NaNs\n",
+        "error": "ValueError('array must not contain infs or NaNs')"
+      }
+    ],
+    [
+      5,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1703638759.2971833,
+      1703638759.310175,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 876, in train\n    X, X_r = IndependentCA(X_scaled, **config_dict)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 124, in IndependentCA\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 708, in fit_transform\n    return self._fit_transform(X, compute_sources=True)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 654, in _fit_transform\n    W, n_iter = _ica_par(X1, **kwargs)\n                ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 113, in _ica_par\n    W1 = _sym_decorrelation(np.dot(gwtx, X.T) / p_ - g_wtx[:, np.newaxis] * W)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 56, in _sym_decorrelation\n    s, u = linalg.eigh(np.dot(W, W.T))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/linalg/_decomp.py\", line 461, in eigh\n    a1 = _asarray_validated(a, check_finite=check_finite)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/_lib/_util.py\", line 252, in _asarray_validated\n    a = toarray(a)\n        ^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/numpy/lib/function_base.py\", line 628, in asarray_chkfinite\n    raise ValueError(\nValueError: array must not contain infs or NaNs\n",
+        "error": "ValueError('array must not contain infs or NaNs')"
+      }
+    ],
+    [
+      5,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1703638759.3120391,
+      1703638759.3189344,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 876, in train\n    X, X_r = IndependentCA(X_scaled, **config_dict)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 124, in IndependentCA\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 708, in fit_transform\n    return self._fit_transform(X, compute_sources=True)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 654, in _fit_transform\n    W, n_iter = _ica_par(X1, **kwargs)\n                ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 113, in _ica_par\n    W1 = _sym_decorrelation(np.dot(gwtx, X.T) / p_ - g_wtx[:, np.newaxis] * W)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 56, in _sym_decorrelation\n    s, u = linalg.eigh(np.dot(W, W.T))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/linalg/_decomp.py\", line 461, in eigh\n    a1 = _asarray_validated(a, check_finite=check_finite)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/_lib/_util.py\", line 252, in _asarray_validated\n    a = toarray(a)\n        ^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/numpy/lib/function_base.py\", line 628, in asarray_chkfinite\n    raise ValueError(\nValueError: array must not contain infs or NaNs\n",
+        "error": "ValueError('array must not contain infs or NaNs')"
+      }
+    ],
+    [
+      5,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1703638759.3208358,
+      1703638759.3420563,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 876, in train\n    X, X_r = IndependentCA(X_scaled, **config_dict)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 124, in IndependentCA\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 708, in fit_transform\n    return self._fit_transform(X, compute_sources=True)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 654, in _fit_transform\n    W, n_iter = _ica_par(X1, **kwargs)\n                ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 113, in _ica_par\n    W1 = _sym_decorrelation(np.dot(gwtx, X.T) / p_ - g_wtx[:, np.newaxis] * W)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 56, in _sym_decorrelation\n    s, u = linalg.eigh(np.dot(W, W.T))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/linalg/_decomp.py\", line 461, in eigh\n    a1 = _asarray_validated(a, check_finite=check_finite)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/_lib/_util.py\", line 252, in _asarray_validated\n    a = toarray(a)\n        ^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/numpy/lib/function_base.py\", line 628, in asarray_chkfinite\n    raise ValueError(\nValueError: array must not contain infs or NaNs\n",
+        "error": "ValueError('array must not contain infs or NaNs')"
+      }
+    ],
+    [
+      6,
+      null,
+      209652396,
+      null,
+      0.37341101872726734,
+      0.9209990501403809,
+      1,
+      1703638759.4872937,
+      1703638760.408858,
+      {}
+    ],
+    [
+      6,
+      null,
+      398764591,
+      null,
+      0.37341101872726734,
+      0.4088001251220703,
+      1,
+      1703638760.4144843,
+      1703638760.824188,
+      {}
+    ],
+    [
+      6,
+      null,
+      924231285,
+      null,
+      0.37341101872726734,
+      0.4618678092956543,
+      1,
+      1703638760.8264635,
+      1703638761.2892132,
+      {}
+    ],
+    [
+      7,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1703638761.2924798,
+      1703638761.6214406,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 876, in train\n    X, X_r = IndependentCA(X_scaled, **config_dict)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 124, in IndependentCA\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 708, in fit_transform\n    return self._fit_transform(X, compute_sources=True)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 683, in _fit_transform\n    self.mixing_ = linalg.pinv(self.components_, check_finite=False)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/linalg/_basic.py\", line 1326, in pinv\n    u, s, vh = _decomp_svd.svd(a, full_matrices=False, check_finite=False)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/linalg/_decomp_svd.py\", line 133, in svd\n    raise ValueError('illegal value in %dth argument of internal gesdd'\nValueError: illegal value in 4th argument of internal gesdd\n",
+        "error": "ValueError('illegal value in 4th argument of internal gesdd')"
+      }
+    ],
+    [
+      7,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1703638761.6254103,
+      1703638761.8777277,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 876, in train\n    X, X_r = IndependentCA(X_scaled, **config_dict)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 124, in IndependentCA\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 708, in fit_transform\n    return self._fit_transform(X, compute_sources=True)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 683, in _fit_transform\n    self.mixing_ = linalg.pinv(self.components_, check_finite=False)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/linalg/_basic.py\", line 1326, in pinv\n    u, s, vh = _decomp_svd.svd(a, full_matrices=False, check_finite=False)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/linalg/_decomp_svd.py\", line 133, in svd\n    raise ValueError('illegal value in %dth argument of internal gesdd'\nValueError: illegal value in 4th argument of internal gesdd\n",
+        "error": "ValueError('illegal value in 4th argument of internal gesdd')"
+      }
+    ],
+    [
+      7,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1703638761.8803093,
+      1703638762.139276,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 876, in train\n    X, X_r = IndependentCA(X_scaled, **config_dict)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 124, in IndependentCA\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 708, in fit_transform\n    return self._fit_transform(X, compute_sources=True)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 683, in _fit_transform\n    self.mixing_ = linalg.pinv(self.components_, check_finite=False)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/linalg/_basic.py\", line 1326, in pinv\n    u, s, vh = _decomp_svd.svd(a, full_matrices=False, check_finite=False)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/linalg/_decomp_svd.py\", line 133, in svd\n    raise ValueError('illegal value in %dth argument of internal gesdd'\nValueError: illegal value in 4th argument of internal gesdd\n",
+        "error": "ValueError('illegal value in 4th argument of internal gesdd')"
+      }
+    ],
+    [
+      8,
+      null,
+      209652396,
+      null,
+      0.6579142083713274,
+      1.27738356590271,
+      1,
+      1703638762.1428573,
+      1703638763.4210672,
+      {}
+    ],
+    [
+      8,
+      null,
+      398764591,
+      null,
+      0.6579142083701888,
+      1.299828290939331,
+      1,
+      1703638763.4236414,
+      1703638764.7243567,
+      {}
+    ],
+    [
+      8,
+      null,
+      924231285,
+      null,
+      0.6579142083738518,
+      0.6116383075714111,
+      1,
+      1703638764.7269819,
+      1703638765.339528,
+      {}
+    ],
+    [
+      9,
+      null,
+      209652396,
+      null,
+      0.5372446659933066,
+      0.5574159622192383,
+      1,
+      1703638765.34296,
+      1703638765.9012566,
+      {}
+    ],
+    [
+      9,
+      null,
+      398764591,
+      null,
+      0.5372446659933066,
+      0.6137313842773438,
+      1,
+      1703638765.9052289,
+      1703638766.5198123,
+      {}
+    ],
+    [
+      9,
+      null,
+      924231285,
+      null,
+      0.5372446659933064,
+      0.6771717071533203,
+      1,
+      1703638766.5220778,
+      1703638767.200059,
+      {}
+    ],
+    [
+      10,
+      null,
+      209652396,
+      null,
+      0.6579142083721938,
+      0.39767885208129883,
+      1,
+      1703638767.2032287,
+      1703638767.6017113,
+      {}
+    ],
+    [
+      10,
+      null,
+      398764591,
+      null,
+      0.6579142083721989,
+      0.2844083309173584,
+      1,
+      1703638767.6040938,
+      1703638767.8930662,
+      {}
+    ],
+    [
+      10,
+      null,
+      924231285,
+      null,
+      0.6579142083721483,
+      0.2881767749786377,
+      1,
+      1703638767.895597,
+      1703638768.184579,
+      {}
+    ],
+    [
+      11,
+      null,
+      209652396,
+      null,
+      0.5372446659933066,
+      0.2537219524383545,
+      1,
+      1703638768.1878796,
+      1703638768.4424071,
+      {}
+    ],
+    [
+      11,
+      null,
+      398764591,
+      null,
+      0.5372446659933067,
+      0.66302490234375,
+      1,
+      1703638768.4448242,
+      1703638769.1086524,
+      {}
+    ],
+    [
+      11,
+      null,
+      924231285,
+      null,
+      0.5372446659933066,
+      0.4206991195678711,
+      1,
+      1703638769.111042,
+      1703638769.5325325,
+      {}
+    ],
+    [
+      12,
+      null,
+      209652396,
+      null,
+      1.0,
+      0.3914318084716797,
+      1,
+      1703638769.535697,
+      1703638769.9279213,
+      {}
+    ],
+    [
+      12,
+      null,
+      398764591,
+      null,
+      1.0,
+      0.18252277374267578,
+      1,
+      1703638769.9319701,
+      1703638770.1152976,
+      {}
+    ],
+    [
+      12,
+      null,
+      924231285,
+      null,
+      1.0,
+      0.2440791130065918,
+      1,
+      1703638770.117834,
+      1703638770.3627095,
+      {}
+    ],
+    [
+      13,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1703638770.3662295,
+      1703638770.6624181,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 876, in train\n    X, X_r = IndependentCA(X_scaled, **config_dict)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 124, in IndependentCA\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 708, in fit_transform\n    return self._fit_transform(X, compute_sources=True)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 683, in _fit_transform\n    self.mixing_ = linalg.pinv(self.components_, check_finite=False)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/linalg/_basic.py\", line 1326, in pinv\n    u, s, vh = _decomp_svd.svd(a, full_matrices=False, check_finite=False)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/linalg/_decomp_svd.py\", line 133, in svd\n    raise ValueError('illegal value in %dth argument of internal gesdd'\nValueError: illegal value in 4th argument of internal gesdd\n",
+        "error": "ValueError('illegal value in 4th argument of internal gesdd')"
+      }
+    ],
+    [
+      13,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1703638770.6656184,
+      1703638770.8733099,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 876, in train\n    X, X_r = IndependentCA(X_scaled, **config_dict)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 124, in IndependentCA\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 708, in fit_transform\n    return self._fit_transform(X, compute_sources=True)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 683, in _fit_transform\n    self.mixing_ = linalg.pinv(self.components_, check_finite=False)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/linalg/_basic.py\", line 1326, in pinv\n    u, s, vh = _decomp_svd.svd(a, full_matrices=False, check_finite=False)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/linalg/_decomp_svd.py\", line 133, in svd\n    raise ValueError('illegal value in %dth argument of internal gesdd'\nValueError: illegal value in 4th argument of internal gesdd\n",
+        "error": "ValueError('illegal value in 4th argument of internal gesdd')"
+      }
+    ],
+    [
+      13,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1703638770.8764782,
+      1703638771.0806284,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 876, in train\n    X, X_r = IndependentCA(X_scaled, **config_dict)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 124, in IndependentCA\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 708, in fit_transform\n    return self._fit_transform(X, compute_sources=True)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 683, in _fit_transform\n    self.mixing_ = linalg.pinv(self.components_, check_finite=False)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/linalg/_basic.py\", line 1326, in pinv\n    u, s, vh = _decomp_svd.svd(a, full_matrices=False, check_finite=False)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/linalg/_decomp_svd.py\", line 133, in svd\n    raise ValueError('illegal value in %dth argument of internal gesdd'\nValueError: illegal value in 4th argument of internal gesdd\n",
+        "error": "ValueError('illegal value in 4th argument of internal gesdd')"
+      }
+    ],
+    [
+      14,
+      null,
+      209652396,
+      null,
+      1.0,
+      1.4083385467529297,
+      1,
+      1703638771.378247,
+      1703638772.787572,
+      {}
+    ],
+    [
+      14,
+      null,
+      398764591,
+      null,
+      1.0,
+      1.512843132019043,
+      1,
+      1703638772.7910974,
+      1703638774.3049228,
+      {}
+    ],
+    [
+      14,
+      null,
+      924231285,
+      null,
+      1.0,
+      0.40730786323547363,
+      1,
+      1703638774.3079796,
+      1703638774.7161655,
+      {}
+    ],
+    [
+      15,
+      null,
+      209652396,
+      null,
+      0.6579142083721552,
+      0.7076990604400635,
+      1,
+      1703638774.720161,
+      1703638775.4287682,
+      {}
+    ],
+    [
+      15,
+      null,
+      398764591,
+      null,
+      0.6579142083721552,
+      1.2446298599243164,
+      1,
+      1703638775.4318564,
+      1703638776.6773882,
+      {}
+    ],
+    [
+      15,
+      null,
+      924231285,
+      null,
+      0.657914208372155,
+      0.37764811515808105,
+      1,
+      1703638776.6831262,
+      1703638777.0616693,
+      {}
+    ],
+    [
+      16,
+      null,
+      209652396,
+      null,
+      0.6579142084479612,
+      0.3408489227294922,
+      1,
+      1703638777.0652878,
+      1703638777.406954,
+      {}
+    ],
+    [
+      16,
+      null,
+      398764591,
+      null,
+      0.6579142083777906,
+      0.263197660446167,
+      1,
+      1703638777.4099896,
+      1703638777.6740022,
+      {}
+    ],
+    [
+      16,
+      null,
+      924231285,
+      null,
+      0.6579142083035427,
+      0.2790110111236572,
+      1,
+      1703638777.6768444,
+      1703638777.95667,
+      {}
+    ],
+    [
+      17,
+      null,
+      209652396,
+      null,
+      0.6579142083721594,
+      0.25060296058654785,
+      1,
+      1703638777.9607034,
+      1703638778.2121162,
+      {}
+    ],
+    [
+      17,
+      null,
+      398764591,
+      null,
+      0.6579142083721599,
+      0.2364053726196289,
+      1,
+      1703638778.2150238,
+      1703638778.452229,
+      {}
+    ],
+    [
+      17,
+      null,
+      924231285,
+      null,
+      0.6579142083721534,
+      0.2335517406463623,
+      1,
+      1703638778.45515,
+      1703638778.6895092,
+      {}
+    ],
+    [
+      18,
+      null,
+      209652396,
+      null,
+      0.6579142083721192,
+      0.6180934906005859,
+      1,
+      1703638778.6937463,
+      1703638779.312668,
+      {}
+    ],
+    [
+      18,
+      null,
+      398764591,
+      null,
+      0.6579142083721167,
+      0.44642090797424316,
+      1,
+      1703638779.3160589,
+      1703638779.7633612,
+      {}
+    ],
+    [
+      18,
+      null,
+      924231285,
+      null,
+      0.6579142083721197,
+      0.2320563793182373,
+      1,
+      1703638779.7666788,
+      1703638779.9995837,
+      {}
+    ],
+    [
+      19,
+      null,
+      209652396,
+      null,
+      0.6579142083721552,
+      0.31714558601379395,
+      1,
+      1703638780.00381,
+      1703638780.3217585,
+      {}
+    ],
+    [
+      19,
+      null,
+      398764591,
+      null,
+      0.657914208372155,
+      0.20885396003723145,
+      1,
+      1703638780.3248446,
+      1703638780.53449,
+      {}
+    ],
+    [
+      19,
+      null,
+      924231285,
+      null,
+      0.657914208372155,
+      0.18274974822998047,
+      1,
+      1703638780.5375793,
+      1703638780.7211232,
+      {}
+    ],
+    [
+      20,
+      null,
+      209652396,
+      null,
+      0.657914208382828,
+      0.17167925834655762,
+      1,
+      1703638780.7251737,
+      1703638780.8976474,
+      {}
+    ],
+    [
+      20,
+      null,
+      398764591,
+      null,
+      0.6579142083669087,
+      0.17166352272033691,
+      1,
+      1703638780.9008145,
+      1703638781.073281,
+      {}
+    ],
+    [
+      20,
+      null,
+      924231285,
+      null,
+      0.6579142083686502,
+      0.1815962791442871,
+      1,
+      1703638781.0765636,
+      1703638781.2589524,
+      {}
+    ],
+    [
+      21,
+      null,
+      209652396,
+      null,
+      0.6579142083721552,
+      0.2158646583557129,
+      1,
+      1703638781.263045,
+      1703638781.4797046,
+      {}
+    ],
+    [
+      21,
+      null,
+      398764591,
+      null,
+      0.657914208372155,
+      0.2151350975036621,
+      1,
+      1703638781.4829075,
+      1703638781.69883,
+      {}
+    ],
+    [
+      21,
+      null,
+      924231285,
+      null,
+      0.6579142083721552,
+      0.33650898933410645,
+      1,
+      1703638781.703563,
+      1703638782.040863,
+      {}
+    ],
+    [
+      22,
+      null,
+      209652396,
+      null,
+      0.6579142083721542,
+      1.2160487174987793,
+      1,
+      1703638782.4019806,
+      1703638783.6189914,
+      {}
+    ],
+    [
+      22,
+      null,
+      398764591,
+      null,
+      0.6579142083721574,
+      0.7283754348754883,
+      1,
+      1703638783.6227245,
+      1703638784.3519928,
+      {}
+    ],
+    [
+      22,
+      null,
+      924231285,
+      null,
+      0.6579142083721626,
+      0.5290331840515137,
+      1,
+      1703638784.35567,
+      1703638784.8855708,
+      {}
+    ],
+    [
+      23,
+      null,
+      209652396,
+      null,
+      0.6172320521216769,
+      0.29813623428344727,
+      1,
+      1703638784.8902247,
+      1703638785.1892593,
+      {}
+    ],
+    [
+      23,
+      null,
+      398764591,
+      null,
+      0.6211400628865573,
+      0.2152409553527832,
+      1,
+      1703638785.1927216,
+      1703638785.4087963,
+      {}
+    ],
+    [
+      23,
+      null,
+      924231285,
+      null,
+      0.5898719052838277,
+      0.4165060520172119,
+      1,
+      1703638785.412195,
+      1703638785.8295226,
+      {}
+    ],
+    [
+      24,
+      null,
+      209652396,
+      null,
+      0.6579142083721505,
+      0.5780107975006104,
+      1,
+      1703638785.8341067,
+      1703638786.412948,
+      {}
+    ],
+    [
+      24,
+      null,
+      398764591,
+      null,
+      0.6579142083721494,
+      0.9772129058837891,
+      1,
+      1703638786.421363,
+      1703638787.3994246,
+      {}
+    ],
+    [
+      24,
+      null,
+      924231285,
+      null,
+      0.6579142083721635,
+      0.8716912269592285,
+      1,
+      1703638787.4029553,
+      1703638788.2754667,
+      {}
+    ],
+    [
+      25,
+      null,
+      209652396,
+      null,
+      0.5372446659933066,
+      0.5086266994476318,
+      1,
+      1703638788.2800038,
+      1703638788.7894502,
+      {}
+    ],
+    [
+      25,
+      null,
+      398764591,
+      null,
+      0.5372446659933067,
+      0.4641551971435547,
+      1,
+      1703638788.7964823,
+      1703638789.2614577,
+      {}
+    ],
+    [
+      25,
+      null,
+      924231285,
+      null,
+      0.5372446659933068,
+      0.6511831283569336,
+      1,
+      1703638789.2649572,
+      1703638789.9169507,
+      {}
+    ],
+    [
+      26,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1703638789.926494,
+      1703638789.9358234,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 876, in train\n    X, X_r = IndependentCA(X_scaled, **config_dict)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 124, in IndependentCA\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 708, in fit_transform\n    return self._fit_transform(X, compute_sources=True)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 654, in _fit_transform\n    W, n_iter = _ica_par(X1, **kwargs)\n                ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 113, in _ica_par\n    W1 = _sym_decorrelation(np.dot(gwtx, X.T) / p_ - g_wtx[:, np.newaxis] * W)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 56, in _sym_decorrelation\n    s, u = linalg.eigh(np.dot(W, W.T))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/linalg/_decomp.py\", line 461, in eigh\n    a1 = _asarray_validated(a, check_finite=check_finite)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/_lib/_util.py\", line 252, in _asarray_validated\n    a = toarray(a)\n        ^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/numpy/lib/function_base.py\", line 628, in asarray_chkfinite\n    raise ValueError(\nValueError: array must not contain infs or NaNs\n",
+        "error": "ValueError('array must not contain infs or NaNs')"
+      }
+    ],
+    [
+      26,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1703638789.9422498,
+      1703638789.9517741,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 876, in train\n    X, X_r = IndependentCA(X_scaled, **config_dict)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 124, in IndependentCA\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 708, in fit_transform\n    return self._fit_transform(X, compute_sources=True)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 654, in _fit_transform\n    W, n_iter = _ica_par(X1, **kwargs)\n                ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 113, in _ica_par\n    W1 = _sym_decorrelation(np.dot(gwtx, X.T) / p_ - g_wtx[:, np.newaxis] * W)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 56, in _sym_decorrelation\n    s, u = linalg.eigh(np.dot(W, W.T))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/linalg/_decomp.py\", line 461, in eigh\n    a1 = _asarray_validated(a, check_finite=check_finite)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/_lib/_util.py\", line 252, in _asarray_validated\n    a = toarray(a)\n        ^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/numpy/lib/function_base.py\", line 628, in asarray_chkfinite\n    raise ValueError(\nValueError: array must not contain infs or NaNs\n",
+        "error": "ValueError('array must not contain infs or NaNs')"
+      }
+    ],
+    [
+      26,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1703638789.957963,
+      1703638789.9702044,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 876, in train\n    X, X_r = IndependentCA(X_scaled, **config_dict)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 124, in IndependentCA\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 708, in fit_transform\n    return self._fit_transform(X, compute_sources=True)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 654, in _fit_transform\n    W, n_iter = _ica_par(X1, **kwargs)\n                ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 113, in _ica_par\n    W1 = _sym_decorrelation(np.dot(gwtx, X.T) / p_ - g_wtx[:, np.newaxis] * W)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 56, in _sym_decorrelation\n    s, u = linalg.eigh(np.dot(W, W.T))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/linalg/_decomp.py\", line 461, in eigh\n    a1 = _asarray_validated(a, check_finite=check_finite)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/_lib/_util.py\", line 252, in _asarray_validated\n    a = toarray(a)\n        ^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/numpy/lib/function_base.py\", line 628, in asarray_chkfinite\n    raise ValueError(\nValueError: array must not contain infs or NaNs\n",
+        "error": "ValueError('array must not contain infs or NaNs')"
+      }
+    ],
+    [
+      27,
+      null,
+      209652396,
+      null,
+      0.5258771596296259,
+      0.49237966537475586,
+      1,
+      1703638789.974931,
+      1703638790.4681118,
+      {}
+    ],
+    [
+      27,
+      null,
+      398764591,
+      null,
+      0.4554107452144758,
+      0.3965790271759033,
+      1,
+      1703638790.4718447,
+      1703638790.869235,
+      {}
+    ],
+    [
+      27,
+      null,
+      924231285,
+      null,
+      0.5201382250912518,
+      0.3805537223815918,
+      1,
+      1703638790.8729937,
+      1703638791.2543585,
+      {}
+    ],
+    [
+      28,
+      null,
+      209652396,
+      null,
+      0.6579142083721552,
+      0.18877053260803223,
+      1,
+      1703638791.2594473,
+      1703638791.4490197,
+      {}
+    ],
+    [
+      28,
+      null,
+      398764591,
+      null,
+      0.6579142083721552,
+      0.6128129959106445,
+      1,
+      1703638791.452833,
+      1703638792.0664585,
+      {}
+    ],
+    [
+      28,
+      null,
+      924231285,
+      null,
+      0.657914208372155,
+      0.40181660652160645,
+      1,
+      1703638792.0704274,
+      1703638792.473056,
+      {}
+    ],
+    [
+      29,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1703638792.4797337,
+      1703638792.614551,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 876, in train\n    X, X_r = IndependentCA(X_scaled, **config_dict)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 124, in IndependentCA\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 708, in fit_transform\n    return self._fit_transform(X, compute_sources=True)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 683, in _fit_transform\n    self.mixing_ = linalg.pinv(self.components_, check_finite=False)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/linalg/_basic.py\", line 1326, in pinv\n    u, s, vh = _decomp_svd.svd(a, full_matrices=False, check_finite=False)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/linalg/_decomp_svd.py\", line 131, in svd\n    raise LinAlgError(\"SVD did not converge\")\nnumpy.linalg.LinAlgError: SVD did not converge\n",
+        "error": "LinAlgError('SVD did not converge')"
+      }
+    ],
+    [
+      29,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1703638792.6294765,
+      1703638792.7199237,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 876, in train\n    X, X_r = IndependentCA(X_scaled, **config_dict)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 124, in IndependentCA\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 708, in fit_transform\n    return self._fit_transform(X, compute_sources=True)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 683, in _fit_transform\n    self.mixing_ = linalg.pinv(self.components_, check_finite=False)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/linalg/_basic.py\", line 1326, in pinv\n    u, s, vh = _decomp_svd.svd(a, full_matrices=False, check_finite=False)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/linalg/_decomp_svd.py\", line 131, in svd\n    raise LinAlgError(\"SVD did not converge\")\nnumpy.linalg.LinAlgError: SVD did not converge\n",
+        "error": "LinAlgError('SVD did not converge')"
+      }
+    ],
+    [
+      29,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1703638792.7238412,
+      1703638792.7984178,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 876, in train\n    X, X_r = IndependentCA(X_scaled, **config_dict)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 124, in IndependentCA\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 708, in fit_transform\n    return self._fit_transform(X, compute_sources=True)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 683, in _fit_transform\n    self.mixing_ = linalg.pinv(self.components_, check_finite=False)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/linalg/_basic.py\", line 1326, in pinv\n    u, s, vh = _decomp_svd.svd(a, full_matrices=False, check_finite=False)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/linalg/_decomp_svd.py\", line 131, in svd\n    raise LinAlgError(\"SVD did not converge\")\nnumpy.linalg.LinAlgError: SVD did not converge\n",
+        "error": "LinAlgError('SVD did not converge')"
+      }
+    ],
+    [
+      30,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1703638793.347097,
+      1703638793.6040163,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 876, in train\n    X, X_r = IndependentCA(X_scaled, **config_dict)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 124, in IndependentCA\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 708, in fit_transform\n    return self._fit_transform(X, compute_sources=True)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 683, in _fit_transform\n    self.mixing_ = linalg.pinv(self.components_, check_finite=False)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/linalg/_basic.py\", line 1326, in pinv\n    u, s, vh = _decomp_svd.svd(a, full_matrices=False, check_finite=False)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/linalg/_decomp_svd.py\", line 133, in svd\n    raise ValueError('illegal value in %dth argument of internal gesdd'\nValueError: illegal value in 4th argument of internal gesdd\n",
+        "error": "ValueError('illegal value in 4th argument of internal gesdd')"
+      }
+    ],
+    [
+      30,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1703638793.6104863,
+      1703638793.842583,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 876, in train\n    X, X_r = IndependentCA(X_scaled, **config_dict)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 124, in IndependentCA\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 708, in fit_transform\n    return self._fit_transform(X, compute_sources=True)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 683, in _fit_transform\n    self.mixing_ = linalg.pinv(self.components_, check_finite=False)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/linalg/_basic.py\", line 1326, in pinv\n    u, s, vh = _decomp_svd.svd(a, full_matrices=False, check_finite=False)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/linalg/_decomp_svd.py\", line 133, in svd\n    raise ValueError('illegal value in %dth argument of internal gesdd'\nValueError: illegal value in 4th argument of internal gesdd\n",
+        "error": "ValueError('illegal value in 4th argument of internal gesdd')"
+      }
+    ],
+    [
+      30,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1703638793.8476856,
+      1703638794.0201163,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 876, in train\n    X, X_r = IndependentCA(X_scaled, **config_dict)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 124, in IndependentCA\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 708, in fit_transform\n    return self._fit_transform(X, compute_sources=True)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 683, in _fit_transform\n    self.mixing_ = linalg.pinv(self.components_, check_finite=False)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/linalg/_basic.py\", line 1326, in pinv\n    u, s, vh = _decomp_svd.svd(a, full_matrices=False, check_finite=False)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/linalg/_decomp_svd.py\", line 133, in svd\n    raise ValueError('illegal value in %dth argument of internal gesdd'\nValueError: illegal value in 4th argument of internal gesdd\n",
+        "error": "ValueError('illegal value in 4th argument of internal gesdd')"
+      }
+    ],
+    [
+      31,
+      null,
+      209652396,
+      null,
+      0.6579142083721552,
+      1.6668071746826172,
+      1,
+      1703638794.0331473,
+      1703638795.701161,
+      {}
+    ],
+    [
+      31,
+      null,
+      398764591,
+      null,
+      0.6579142083721552,
+      0.46775031089782715,
+      1,
+      1703638795.7058308,
+      1703638796.1744754,
+      {}
+    ],
+    [
+      31,
+      null,
+      924231285,
+      null,
+      0.657914208372155,
+      0.6316831111907959,
+      1,
+      1703638796.1793497,
+      1703638796.8119667,
+      {}
+    ],
+    [
+      32,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1703638796.8178782,
+      1703638797.0633755,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 876, in train\n    X, X_r = IndependentCA(X_scaled, **config_dict)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 124, in IndependentCA\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 708, in fit_transform\n    return self._fit_transform(X, compute_sources=True)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 683, in _fit_transform\n    self.mixing_ = linalg.pinv(self.components_, check_finite=False)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/linalg/_basic.py\", line 1326, in pinv\n    u, s, vh = _decomp_svd.svd(a, full_matrices=False, check_finite=False)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/linalg/_decomp_svd.py\", line 133, in svd\n    raise ValueError('illegal value in %dth argument of internal gesdd'\nValueError: illegal value in 4th argument of internal gesdd\n",
+        "error": "ValueError('illegal value in 4th argument of internal gesdd')"
+      }
+    ],
+    [
+      32,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1703638797.067995,
+      1703638797.2145627,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 876, in train\n    X, X_r = IndependentCA(X_scaled, **config_dict)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 124, in IndependentCA\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 708, in fit_transform\n    return self._fit_transform(X, compute_sources=True)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 683, in _fit_transform\n    self.mixing_ = linalg.pinv(self.components_, check_finite=False)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/linalg/_basic.py\", line 1326, in pinv\n    u, s, vh = _decomp_svd.svd(a, full_matrices=False, check_finite=False)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/linalg/_decomp_svd.py\", line 133, in svd\n    raise ValueError('illegal value in %dth argument of internal gesdd'\nValueError: illegal value in 4th argument of internal gesdd\n",
+        "error": "ValueError('illegal value in 4th argument of internal gesdd')"
+      }
+    ],
+    [
+      32,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1703638797.2190402,
+      1703638797.4098365,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 876, in train\n    X, X_r = IndependentCA(X_scaled, **config_dict)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 124, in IndependentCA\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 708, in fit_transform\n    return self._fit_transform(X, compute_sources=True)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 683, in _fit_transform\n    self.mixing_ = linalg.pinv(self.components_, check_finite=False)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/linalg/_basic.py\", line 1326, in pinv\n    u, s, vh = _decomp_svd.svd(a, full_matrices=False, check_finite=False)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/linalg/_decomp_svd.py\", line 133, in svd\n    raise ValueError('illegal value in %dth argument of internal gesdd'\nValueError: illegal value in 4th argument of internal gesdd\n",
+        "error": "ValueError('illegal value in 4th argument of internal gesdd')"
+      }
+    ],
+    [
+      33,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1703638797.4154012,
+      1703638798.322747,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 876, in train\n    X, X_r = IndependentCA(X_scaled, **config_dict)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 124, in IndependentCA\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 708, in fit_transform\n    return self._fit_transform(X, compute_sources=True)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 683, in _fit_transform\n    self.mixing_ = linalg.pinv(self.components_, check_finite=False)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/linalg/_basic.py\", line 1326, in pinv\n    u, s, vh = _decomp_svd.svd(a, full_matrices=False, check_finite=False)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/linalg/_decomp_svd.py\", line 133, in svd\n    raise ValueError('illegal value in %dth argument of internal gesdd'\nValueError: illegal value in 4th argument of internal gesdd\n",
+        "error": "ValueError('illegal value in 4th argument of internal gesdd')"
+      }
+    ],
+    [
+      33,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1703638798.3285575,
+      1703638799.2876604,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 876, in train\n    X, X_r = IndependentCA(X_scaled, **config_dict)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 124, in IndependentCA\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 708, in fit_transform\n    return self._fit_transform(X, compute_sources=True)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 683, in _fit_transform\n    self.mixing_ = linalg.pinv(self.components_, check_finite=False)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/linalg/_basic.py\", line 1326, in pinv\n    u, s, vh = _decomp_svd.svd(a, full_matrices=False, check_finite=False)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/linalg/_decomp_svd.py\", line 133, in svd\n    raise ValueError('illegal value in %dth argument of internal gesdd'\nValueError: illegal value in 4th argument of internal gesdd\n",
+        "error": "ValueError('illegal value in 4th argument of internal gesdd')"
+      }
+    ],
+    [
+      33,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1703638799.2924526,
+      1703638800.400575,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 876, in train\n    X, X_r = IndependentCA(X_scaled, **config_dict)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFOptimized2.py\", line 124, in IndependentCA\n    W = model.fit_transform(X)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 708, in fit_transform\n    return self._fit_transform(X, compute_sources=True)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/decomposition/_fastica.py\", line 683, in _fit_transform\n    self.mixing_ = linalg.pinv(self.components_, check_finite=False)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/linalg/_basic.py\", line 1326, in pinv\n    u, s, vh = _decomp_svd.svd(a, full_matrices=False, check_finite=False)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/scipy/linalg/_decomp_svd.py\", line 133, in svd\n    raise ValueError('illegal value in %dth argument of internal gesdd'\nValueError: illegal value in 4th argument of internal gesdd\n",
+        "error": "ValueError('illegal value in 4th argument of internal gesdd')"
+      }
+    ],
+    [
+      34,
+      null,
+      209652396,
+      null,
+      0.6579142083721546,
+      1.3559558391571045,
+      1,
+      1703638800.4081278,
+      1703638801.7652557,
+      {}
+    ],
+    [
+      34,
+      null,
+      398764591,
+      null,
+      0.6579142083721552,
+      2.5120041370391846,
+      1,
+      1703638801.7702997,
+      1703638804.2832084,
+      {}
+    ]
+  ],
+  "configs": {
+    "1": {
+      "algorithm": "parallel",
+      "fun": "exp",
+      "n_components": 3,
+      "whiten_solver": "eigh"
+    },
+    "2": {
+      "algorithm": "deflation",
+      "fun": "logcosh",
+      "n_components": 12,
+      "whiten_solver": "svd"
+    },
+    "3": {
+      "algorithm": "deflation",
+      "fun": "cube",
+      "n_components": 6,
+      "whiten_solver": "eigh"
+    },
+    "4": {
+      "algorithm": "parallel",
+      "fun": "exp",
+      "n_components": 18,
+      "whiten_solver": "svd"
+    },
+    "5": {
+      "algorithm": "parallel",
+      "fun": "cube",
+      "n_components": 11,
+      "whiten_solver": "svd"
+    },
+    "6": {
+      "algorithm": "deflation",
+      "fun": "logcosh",
+      "n_components": 15,
+      "whiten_solver": "svd"
+    },
+    "7": {
+      "algorithm": "deflation",
+      "fun": "exp",
+      "n_components": 16,
+      "whiten_solver": "svd"
+    },
+    "8": {
+      "algorithm": "deflation",
+      "fun": "cube",
+      "n_components": 15,
+      "whiten_solver": "eigh"
+    },
+    "9": {
+      "algorithm": "deflation",
+      "fun": "cube",
+      "n_components": 2,
+      "whiten_solver": "eigh"
+    },
+    "10": {
+      "algorithm": "parallel",
+      "fun": "logcosh",
+      "n_components": 9,
+      "whiten_solver": "eigh"
+    },
+    "11": {
+      "algorithm": "deflation",
+      "fun": "cube",
+      "n_components": 2,
+      "whiten_solver": "svd"
+    },
+    "12": {
+      "algorithm": "parallel",
+      "fun": "exp",
+      "n_components": 12,
+      "whiten_solver": "svd"
+    },
+    "13": {
+      "algorithm": "deflation",
+      "fun": "cube",
+      "n_components": 14,
+      "whiten_solver": "svd"
+    },
+    "14": {
+      "algorithm": "parallel",
+      "fun": "exp",
+      "n_components": 7,
+      "whiten_solver": "svd"
+    },
+    "15": {
+      "algorithm": "deflation",
+      "fun": "cube",
+      "n_components": 3,
+      "whiten_solver": "eigh"
+    },
+    "16": {
+      "algorithm": "parallel",
+      "fun": "cube",
+      "n_components": 11,
+      "whiten_solver": "eigh"
+    },
+    "17": {
+      "algorithm": "parallel",
+      "fun": "exp",
+      "n_components": 15,
+      "whiten_solver": "eigh"
+    },
+    "18": {
+      "algorithm": "deflation",
+      "fun": "logcosh",
+      "n_components": 18,
+      "whiten_solver": "eigh"
+    },
+    "19": {
+      "algorithm": "deflation",
+      "fun": "exp",
+      "n_components": 14,
+      "whiten_solver": "eigh"
+    },
+    "20": {
+      "algorithm": "deflation",
+      "fun": "cube",
+      "n_components": 18,
+      "whiten_solver": "eigh"
+    },
+    "21": {
+      "algorithm": "deflation",
+      "fun": "logcosh",
+      "n_components": 9,
+      "whiten_solver": "eigh"
+    },
+    "22": {
+      "algorithm": "parallel",
+      "fun": "exp",
+      "n_components": 11,
+      "whiten_solver": "eigh"
+    },
+    "23": {
+      "algorithm": "parallel",
+      "fun": "logcosh",
+      "n_components": 5,
+      "whiten_solver": "svd"
+    },
+    "24": {
+      "algorithm": "parallel",
+      "fun": "logcosh",
+      "n_components": 14,
+      "whiten_solver": "eigh"
+    },
+    "25": {
+      "algorithm": "parallel",
+      "fun": "cube",
+      "n_components": 2,
+      "whiten_solver": "svd"
+    },
+    "26": {
+      "algorithm": "parallel",
+      "fun": "cube",
+      "n_components": 9,
+      "whiten_solver": "svd"
+    },
+    "27": {
+      "algorithm": "parallel",
+      "fun": "exp",
+      "n_components": 6,
+      "whiten_solver": "svd"
+    },
+    "28": {
+      "algorithm": "deflation",
+      "fun": "logcosh",
+      "n_components": 15,
+      "whiten_solver": "eigh"
+    },
+    "29": {
+      "algorithm": "parallel",
+      "fun": "logcosh",
+      "n_components": 16,
+      "whiten_solver": "svd"
+    },
+    "30": {
+      "algorithm": "deflation",
+      "fun": "exp",
+      "n_components": 9,
+      "whiten_solver": "svd"
+    },
+    "31": {
+      "algorithm": "deflation",
+      "fun": "exp",
+      "n_components": 7,
+      "whiten_solver": "eigh"
+    },
+    "32": {
+      "algorithm": "deflation",
+      "fun": "exp",
+      "n_components": 11,
+      "whiten_solver": "svd"
+    },
+    "33": {
+      "algorithm": "deflation",
+      "fun": "logcosh",
+      "n_components": 13,
+      "whiten_solver": "svd"
+    },
+    "34": {
+      "algorithm": "deflation",
+      "fun": "exp",
+      "n_components": 13,
+      "whiten_solver": "eigh"
+    }
+  },
+  "config_origins": {
+    "1": "Initial Design: Sobol",
+    "2": "Initial Design: Sobol",
+    "3": "Initial Design: Sobol",
+    "4": "Initial Design: Sobol",
+    "5": "Initial Design: Sobol",
+    "6": "Acquisition Function Maximizer: Random Search (sorted)",
+    "7": "Acquisition Function Maximizer: Random Search (sorted)",
+    "8": "Acquisition Function Maximizer: Random Search (sorted)",
+    "9": "Acquisition Function Maximizer: Random Search (sorted)",
+    "10": "Acquisition Function Maximizer: Random Search (sorted)",
+    "11": "Acquisition Function Maximizer: Local Search",
+    "12": "Acquisition Function Maximizer: Local Search",
+    "13": "Acquisition Function Maximizer: Local Search",
+    "14": "Acquisition Function Maximizer: Random Search (sorted)",
+    "15": "Acquisition Function Maximizer: Random Search (sorted)",
+    "16": "Acquisition Function Maximizer: Random Search (sorted)",
+    "17": "Random Search",
+    "18": "Random Search",
+    "19": "Random Search",
+    "20": "Acquisition Function Maximizer: Random Search (sorted)",
+    "21": "Acquisition Function Maximizer: Random Search (sorted)",
+    "22": "Acquisition Function Maximizer: Random Search (sorted)",
+    "23": "Acquisition Function Maximizer: Random Search (sorted)",
+    "24": "Acquisition Function Maximizer: Random Search (sorted)",
+    "25": "Acquisition Function Maximizer: Random Search (sorted)",
+    "26": "Random Search",
+    "27": "Acquisition Function Maximizer: Random Search (sorted)",
+    "28": "Random Search",
+    "29": "Acquisition Function Maximizer: Random Search (sorted)",
+    "30": "Acquisition Function Maximizer: Random Search (sorted)",
+    "31": "Acquisition Function Maximizer: Random Search (sorted)",
+    "32": "Acquisition Function Maximizer: Random Search (sorted)",
+    "33": "Acquisition Function Maximizer: Random Search (sorted)",
+    "34": "Acquisition Function Maximizer: Random Search (sorted)"
+  }
+}

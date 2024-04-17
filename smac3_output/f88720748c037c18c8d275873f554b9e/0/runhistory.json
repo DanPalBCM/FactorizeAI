@@ -1,0 +1,170 @@
+{
+  "stats": {
+    "submitted": 10,
+    "finished": 10,
+    "running": 0
+  },
+  "data": [
+    [
+      1,
+      null,
+      209652396,
+      null,
+      0.5690334141254425,
+      5.552507638931274,
+      1,
+      1694795582.939892,
+      1694795588.4930303,
+      {}
+    ],
+    [
+      1,
+      null,
+      398764591,
+      null,
+      0.5936085879802704,
+      1.4614286422729492,
+      1,
+      1694795588.4945378,
+      1694795589.9566133,
+      {}
+    ],
+    [
+      2,
+      null,
+      209652396,
+      null,
+      0.784705400466919,
+      3.5244500637054443,
+      1,
+      1694795589.9581306,
+      1694795593.4832246,
+      {}
+    ],
+    [
+      2,
+      null,
+      398764591,
+      null,
+      0.8063708990812302,
+      3.8053457736968994,
+      1,
+      1694795593.484612,
+      1694795597.290616,
+      {}
+    ],
+    [
+      1,
+      null,
+      924231285,
+      null,
+      0.6177184879779816,
+      1.4397492408752441,
+      1,
+      1694795597.2922876,
+      1694795598.732682,
+      {}
+    ],
+    [
+      3,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1694795598.8926318,
+      1694795600.52127,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 1127, in train\n    labels = Ensemble_classifier_sklearn(X, number_clusters)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 340, in Ensemble_classifier_sklearn\n    y_ensemble = ens_clt.fit_predict(X)\n                 ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 318, in fit_predict\n    self.fit(X)\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 309, in fit\n    clt_sim_matrix.fit(model.fit_predict(X=X_))\n                       ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/cluster/_kmeans.py\", line 1033, in fit_predict\n    return self.fit(X, sample_weight=sample_weight).labels_\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/cluster/_kmeans.py\", line 2020, in fit\n    X = self._validate_data(\n        ^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/base.py\", line 565, in _validate_data\n    X = check_array(X, input_name=\"X\", **check_params)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/validation.py\", line 921, in check_array\n    _assert_all_finite(\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/validation.py\", line 161, in _assert_all_finite\n    raise ValueError(msg_err)\nValueError: Input X contains NaN.\nMiniBatchKMeans does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values\n",
+        "error": "ValueError('Input X contains NaN.\\nMiniBatchKMeans does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values')"
+      }
+    ],
+    [
+      3,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1694795600.523453,
+      1694795602.168401,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 1127, in train\n    labels = Ensemble_classifier_sklearn(X, number_clusters)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 340, in Ensemble_classifier_sklearn\n    y_ensemble = ens_clt.fit_predict(X)\n                 ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 318, in fit_predict\n    self.fit(X)\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 309, in fit\n    clt_sim_matrix.fit(model.fit_predict(X=X_))\n                       ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/cluster/_kmeans.py\", line 1033, in fit_predict\n    return self.fit(X, sample_weight=sample_weight).labels_\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/cluster/_kmeans.py\", line 2020, in fit\n    X = self._validate_data(\n        ^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/base.py\", line 565, in _validate_data\n    X = check_array(X, input_name=\"X\", **check_params)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/validation.py\", line 921, in check_array\n    _assert_all_finite(\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/validation.py\", line 161, in _assert_all_finite\n    raise ValueError(msg_err)\nValueError: Input X contains NaN.\nMiniBatchKMeans does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values\n",
+        "error": "ValueError('Input X contains NaN.\\nMiniBatchKMeans does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values')"
+      }
+    ],
+    [
+      3,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1694795602.1702018,
+      1694795603.546635,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 1127, in train\n    labels = Ensemble_classifier_sklearn(X, number_clusters)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 340, in Ensemble_classifier_sklearn\n    y_ensemble = ens_clt.fit_predict(X)\n                 ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 318, in fit_predict\n    self.fit(X)\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFBO2.py\", line 309, in fit\n    clt_sim_matrix.fit(model.fit_predict(X=X_))\n                       ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/cluster/_kmeans.py\", line 1033, in fit_predict\n    return self.fit(X, sample_weight=sample_weight).labels_\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/cluster/_kmeans.py\", line 2020, in fit\n    X = self._validate_data(\n        ^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/base.py\", line 565, in _validate_data\n    X = check_array(X, input_name=\"X\", **check_params)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/validation.py\", line 921, in check_array\n    _assert_all_finite(\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/validation.py\", line 161, in _assert_all_finite\n    raise ValueError(msg_err)\nValueError: Input X contains NaN.\nMiniBatchKMeans does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values\n",
+        "error": "ValueError('Input X contains NaN.\\nMiniBatchKMeans does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values')"
+      }
+    ],
+    [
+      4,
+      null,
+      209652396,
+      null,
+      0.6534605026245117,
+      1.4941015243530273,
+      1,
+      1694795603.549438,
+      1694795605.0442488,
+      {}
+    ],
+    [
+      4,
+      null,
+      398764591,
+      null,
+      0.70063716173172,
+      1.4569551944732666,
+      1,
+      1694795605.045933,
+      1694795606.5035768,
+      {}
+    ]
+  ],
+  "configs": {
+    "1": {
+      "metric": "braycurtis",
+      "min_dist": 0.6143590484932065,
+      "n_components": 2,
+      "n_neighbors": 25
+    },
+    "2": {
+      "metric": "sokalmichener",
+      "min_dist": 0.24635735381394624,
+      "n_components": 3,
+      "n_neighbors": 58
+    },
+    "3": {
+      "metric": "seuclidean",
+      "min_dist": 0.463470905902863,
+      "n_components": 3,
+      "n_neighbors": 24
+    },
+    "4": {
+      "metric": "braycurtis",
+      "min_dist": 0.8246248040214806,
+      "n_components": 3,
+      "n_neighbors": 25
+    }
+  },
+  "config_origins": {
+    "1": "Initial Design: Sobol",
+    "2": "Initial Design: Sobol",
+    "3": "Acquisition Function Maximizer: Local Search",
+    "4": "Acquisition Function Maximizer: Local Search"
+  }
+}

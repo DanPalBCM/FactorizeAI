@@ -1,0 +1,60 @@
+{
+  "hyperparameters": [
+    {
+      "name": "eigen_solver",
+      "type": "categorical",
+      "choices": [
+        "auto",
+        "arpack",
+        "dense"
+      ],
+      "default": "auto",
+      "weights": null
+    },
+    {
+      "name": "method",
+      "type": "categorical",
+      "choices": [
+        "standard",
+        "modified",
+        "ltsa"
+      ],
+      "default": "standard",
+      "weights": null
+    },
+    {
+      "name": "n_components",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 2,
+      "upper": 18,
+      "default": 2,
+      "q": null
+    },
+    {
+      "name": "n_neighbors",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 18,
+      "upper": 28,
+      "default": 18,
+      "q": null
+    },
+    {
+      "name": "neighbors_algorithm",
+      "type": "categorical",
+      "choices": [
+        "auto",
+        "brute",
+        "kd_tree",
+        "ball_tree"
+      ],
+      "default": "auto",
+      "weights": null
+    }
+  ],
+  "conditions": [],
+  "forbiddens": [],
+  "python_module_version": "0.6.1",
+  "json_format_version": 0.4
+}

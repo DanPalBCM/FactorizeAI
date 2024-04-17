@@ -1,0 +1,63 @@
+{
+  "stats": {
+    "submitted": 3,
+    "finished": 3,
+    "running": 0
+  },
+  "data": [
+    [
+      1,
+      null,
+      209652396,
+      null,
+      0.610300029797848,
+      29.797911882400513,
+      1,
+      1695135782.4747744,
+      1695135812.2739315,
+      {}
+    ],
+    [
+      1,
+      null,
+      398764591,
+      null,
+      0.610300029797848,
+      30.558091163635254,
+      1,
+      1695135812.2941878,
+      1695135842.8535602,
+      {}
+    ],
+    [
+      2,
+      null,
+      209652396,
+      null,
+      0.7499542761956168,
+      935.8281016349792,
+      1,
+      1695135842.856422,
+      1695136778.6941576,
+      {}
+    ]
+  ],
+  "configs": {
+    "1": {
+      "alpha": 0.34019066896289585,
+      "fit_algorithm": "cd",
+      "n_components": 3,
+      "transform_algorithm": "lasso_lars"
+    },
+    "2": {
+      "alpha": 0.8744391072541475,
+      "fit_algorithm": "lars",
+      "n_components": 10,
+      "transform_algorithm": "omp"
+    }
+  },
+  "config_origins": {
+    "1": "Initial Design: Sobol",
+    "2": "Initial Design: Sobol"
+  }
+}

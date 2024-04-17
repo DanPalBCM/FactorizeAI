@@ -1,0 +1,35 @@
+{
+  "hyperparameters": [
+    {
+      "name": "dissimilarity",
+      "type": "categorical",
+      "choices": [
+        "euclidean"
+      ],
+      "default": "euclidean",
+      "weights": null
+    },
+    {
+      "name": "n_components",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 2,
+      "upper": 30,
+      "default": 3,
+      "q": null
+    },
+    {
+      "name": "n_init",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 2,
+      "upper": 5,
+      "default": 4,
+      "q": null
+    }
+  ],
+  "conditions": [],
+  "forbiddens": [],
+  "python_module_version": "0.6.1",
+  "json_format_version": 0.4
+}

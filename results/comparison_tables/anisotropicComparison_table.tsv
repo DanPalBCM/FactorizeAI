@@ -1,0 +1,14 @@
+	optimized_method	score	incumbent
+0	PCA_sklearn	0.5269729782885317	{'n_components': 2, 'svd_solver': 'full'}
+1	Truncated_SVD	0.5269729782885317	{'n_components': 2, 'n_iter': 5, 'n_oversamples': 11, 'power_iteration_normalizer': 'LU'}
+2	Incremental_PCA	0.5269973838585342	{'batch_size': 31, 'n_components': 2}
+3	IndependentCA	0.4681393170653104	{'algorithm': 'deflation', 'fun': 'exp', 'n_components': 2, 'whiten_solver': 'svd'}
+4	Sparse_PCA	0.5231646491809366	{'alpha': 0.10770726396449731, 'method': 'lars', 'n_components': 2, 'ridge_alpha': 0.015705497003847078}
+5	MiniBatch_SparsePCA	0.5303098817677908	{'alpha': 0.35452047454488766, 'batch_size': 3, 'method': 'lars', 'n_components': 2, 'ridge_alpha': 0.09788601446464222}
+6	Factor_Analysis	0.4662084388572527	{'iterated_power': 4, 'n_components': 2, 'rotation': 'varimax', 'svd_method': 'randomized'}
+7	t_SNE	0.27925628423690796	{'angle': 0.9563981057337311, 'early_exaggeration': 35.53783585790145, 'init': 'pca', 'learning_rate': 953.1631238338691, 'method': 'barnes_hut', 'n_components': 3, 'n_iter': 365, 'n_iter_without_progress': 432, 'perplexity': 13.025927488394242}
+8	Iso_map	0.4564047052469504	{'eigen_solver': 'auto', 'n_components': 2, 'n_neighbors': 5, 'neighbors_algorithm': 'ball_tree', 'path_method': 'FW'}
+9	Local_Linear_Embedding	0.4633709000797662	{'eigen_solver': 'arpack', 'method': 'standard', 'n_components': 2, 'n_neighbors': 5, 'neighbors_algorithm': 'auto'}
+10	Multidimensional_scaling	0.528428504715448	{'dissimilarity': 'euclidean', 'n_components': 2, 'n_init': 2}
+11	Spectral_Embedding	0.335226496788291	{'affinity': 'nearest_neighbors', 'eigen_solver': 'lobpcg', 'n_components': 2}
+12	U_MAP	0.185596764087677	{'metric': 'canberra', 'min_dist': 0.0859109481535842, 'n_components': 3, 'n_neighbors': 13}

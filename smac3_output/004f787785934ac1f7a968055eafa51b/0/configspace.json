@@ -1,0 +1,48 @@
+{
+  "hyperparameters": [
+    {
+      "name": "algorithm",
+      "type": "categorical",
+      "choices": [
+        "parallel",
+        "deflation"
+      ],
+      "default": "parallel",
+      "weights": null
+    },
+    {
+      "name": "fun",
+      "type": "categorical",
+      "choices": [
+        "logcosh",
+        "exp",
+        "cube"
+      ],
+      "default": "logcosh",
+      "weights": null
+    },
+    {
+      "name": "n_components",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 2,
+      "upper": 3,
+      "default": 3,
+      "q": null
+    },
+    {
+      "name": "whiten_solver",
+      "type": "categorical",
+      "choices": [
+        "eigh",
+        "svd"
+      ],
+      "default": "svd",
+      "weights": null
+    }
+  ],
+  "conditions": [],
+  "forbiddens": [],
+  "python_module_version": "0.6.1",
+  "json_format_version": 0.4
+}

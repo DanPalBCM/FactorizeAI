@@ -1,0 +1,183 @@
+{
+  "stats": {
+    "submitted": 10,
+    "finished": 10,
+    "running": 0
+  },
+  "data": [
+    [
+      1,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.007877349853515625,
+      2,
+      1692827010.5601633,
+      1692827010.5706291,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/abstract_runner.py\", line 108, in run_wrapper\n    status, cost, runtime, additional_info = self.run(\n                                             ^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 236, in run\n    cost = self.crash_cost\n           ^^^^^^^^^^^^^^^\nAttributeError: 'TargetFunctionRunner' object has no attribute 'crash_cost'\n",
+        "error": "AttributeError(\"'TargetFunctionRunner' object has no attribute 'crash_cost'\")"
+      }
+    ],
+    [
+      1,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0007803440093994141,
+      2,
+      1692827010.576316,
+      1692827010.5773542,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/abstract_runner.py\", line 108, in run_wrapper\n    status, cost, runtime, additional_info = self.run(\n                                             ^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 236, in run\n    cost = self.crash_cost\n           ^^^^^^^^^^^^^^^\nAttributeError: 'TargetFunctionRunner' object has no attribute 'crash_cost'\n",
+        "error": "AttributeError(\"'TargetFunctionRunner' object has no attribute 'crash_cost'\")"
+      }
+    ],
+    [
+      2,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0006988048553466797,
+      2,
+      1692827010.5787227,
+      1692827010.5796413,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/abstract_runner.py\", line 108, in run_wrapper\n    status, cost, runtime, additional_info = self.run(\n                                             ^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 236, in run\n    cost = self.crash_cost\n           ^^^^^^^^^^^^^^^\nAttributeError: 'TargetFunctionRunner' object has no attribute 'crash_cost'\n",
+        "error": "AttributeError(\"'TargetFunctionRunner' object has no attribute 'crash_cost'\")"
+      }
+    ],
+    [
+      2,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0006573200225830078,
+      2,
+      1692827010.5807495,
+      1692827010.5816154,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/abstract_runner.py\", line 108, in run_wrapper\n    status, cost, runtime, additional_info = self.run(\n                                             ^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 236, in run\n    cost = self.crash_cost\n           ^^^^^^^^^^^^^^^\nAttributeError: 'TargetFunctionRunner' object has no attribute 'crash_cost'\n",
+        "error": "AttributeError(\"'TargetFunctionRunner' object has no attribute 'crash_cost'\")"
+      }
+    ],
+    [
+      1,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0007550716400146484,
+      2,
+      1692827010.5865526,
+      1692827010.5875118,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/abstract_runner.py\", line 108, in run_wrapper\n    status, cost, runtime, additional_info = self.run(\n                                             ^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 236, in run\n    cost = self.crash_cost\n           ^^^^^^^^^^^^^^^\nAttributeError: 'TargetFunctionRunner' object has no attribute 'crash_cost'\n",
+        "error": "AttributeError(\"'TargetFunctionRunner' object has no attribute 'crash_cost'\")"
+      }
+    ],
+    [
+      3,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.000705718994140625,
+      2,
+      1692827010.6661255,
+      1692827010.667072,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/abstract_runner.py\", line 108, in run_wrapper\n    status, cost, runtime, additional_info = self.run(\n                                             ^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 236, in run\n    cost = self.crash_cost\n           ^^^^^^^^^^^^^^^\nAttributeError: 'TargetFunctionRunner' object has no attribute 'crash_cost'\n",
+        "error": "AttributeError(\"'TargetFunctionRunner' object has no attribute 'crash_cost'\")"
+      }
+    ],
+    [
+      3,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0006363391876220703,
+      2,
+      1692827010.668393,
+      1692827010.669225,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/abstract_runner.py\", line 108, in run_wrapper\n    status, cost, runtime, additional_info = self.run(\n                                             ^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 236, in run\n    cost = self.crash_cost\n           ^^^^^^^^^^^^^^^\nAttributeError: 'TargetFunctionRunner' object has no attribute 'crash_cost'\n",
+        "error": "AttributeError(\"'TargetFunctionRunner' object has no attribute 'crash_cost'\")"
+      }
+    ],
+    [
+      3,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0007050037384033203,
+      2,
+      1692827010.6703663,
+      1692827010.6712725,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/abstract_runner.py\", line 108, in run_wrapper\n    status, cost, runtime, additional_info = self.run(\n                                             ^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 236, in run\n    cost = self.crash_cost\n           ^^^^^^^^^^^^^^^\nAttributeError: 'TargetFunctionRunner' object has no attribute 'crash_cost'\n",
+        "error": "AttributeError(\"'TargetFunctionRunner' object has no attribute 'crash_cost'\")"
+      }
+    ],
+    [
+      4,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0006284713745117188,
+      2,
+      1692827010.6727247,
+      1692827010.6735373,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/abstract_runner.py\", line 108, in run_wrapper\n    status, cost, runtime, additional_info = self.run(\n                                             ^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 236, in run\n    cost = self.crash_cost\n           ^^^^^^^^^^^^^^^\nAttributeError: 'TargetFunctionRunner' object has no attribute 'crash_cost'\n",
+        "error": "AttributeError(\"'TargetFunctionRunner' object has no attribute 'crash_cost'\")"
+      }
+    ],
+    [
+      4,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0006170272827148438,
+      2,
+      1692827010.6746528,
+      1692827010.675451,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/abstract_runner.py\", line 108, in run_wrapper\n    status, cost, runtime, additional_info = self.run(\n                                             ^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 236, in run\n    cost = self.crash_cost\n           ^^^^^^^^^^^^^^^\nAttributeError: 'TargetFunctionRunner' object has no attribute 'crash_cost'\n",
+        "error": "AttributeError(\"'TargetFunctionRunner' object has no attribute 'crash_cost'\")"
+      }
+    ]
+  ],
+  "configs": {
+    "1": {
+      "init": "nndsvd",
+      "n_components": 4
+    },
+    "2": {
+      "init": "nndsvdar",
+      "n_components": 2
+    },
+    "3": {
+      "init": "",
+      "n_components": 2
+    },
+    "4": {
+      "init": "nndsvdar",
+      "n_components": 3
+    }
+  },
+  "config_origins": {
+    "1": "Initial Design: Sobol",
+    "2": "Initial Design: Sobol",
+    "3": "Acquisition Function Maximizer: Random Search (sorted)",
+    "4": "Acquisition Function Maximizer: Random Search (sorted)"
+  }
+}

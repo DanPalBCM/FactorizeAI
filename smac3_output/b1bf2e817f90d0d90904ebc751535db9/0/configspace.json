@@ -1,0 +1,86 @@
+{
+  "hyperparameters": [
+    {
+      "name": "alpha_W",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.0,
+      "upper": 0.9,
+      "default": 0.0,
+      "q": null
+    },
+    {
+      "name": "init",
+      "type": "categorical",
+      "choices": [
+        "random",
+        "nndsvd",
+        "nndsvda",
+        "nndsvdar"
+      ],
+      "default": "random",
+      "weights": null
+    },
+    {
+      "name": "l1_ratio",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.0,
+      "upper": 0.9,
+      "default": 0.0,
+      "q": null
+    },
+    {
+      "name": "n_components",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 2,
+      "upper": 14,
+      "default": 3,
+      "q": null
+    },
+    {
+      "name": "solver",
+      "type": "categorical",
+      "choices": [
+        "cd",
+        "mu"
+      ],
+      "default": "cd",
+      "weights": null
+    },
+    {
+      "name": "verbose",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 0,
+      "upper": 1,
+      "default": 0,
+      "q": null
+    },
+    {
+      "name": "beta_loss",
+      "type": "categorical",
+      "choices": [
+        "frobenius",
+        "kullback-leibler",
+        "itakura-saito"
+      ],
+      "default": "frobenius",
+      "weights": null
+    }
+  ],
+  "conditions": [
+    {
+      "child": "beta_loss",
+      "parent": "solver",
+      "type": "IN",
+      "values": [
+        "mu"
+      ]
+    }
+  ],
+  "forbiddens": [],
+  "python_module_version": "0.6.1",
+  "json_format_version": 0.4
+}

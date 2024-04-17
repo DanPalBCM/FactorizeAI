@@ -1,0 +1,159 @@
+{
+  "stats": {
+    "submitted": 10,
+    "finished": 10,
+    "running": 0
+  },
+  "data": [
+    [
+      1,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1693326794.0692449,
+      1693326794.073029,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFSMAC.py\", line 2165, in train\n    X, X_r = Local_Linear_Embedding(X_scaled, **config_dict)\n       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFSMAC.py\", line 320, in Local_Linear_Embedding\n    X_hat = transformer.fit_transform(X)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/manifold/_locally_linear.py\", line 799, in fit_transform\n    self._fit_transform(X)\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/manifold/_locally_linear.py\", line 746, in _fit_transform\n    self.embedding_, self.reconstruction_error_ = locally_linear_embedding(\n                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/manifold/_locally_linear.py\", line 357, in locally_linear_embedding\n    raise ValueError(\nValueError: for method='hessian', n_neighbors must be greater than [n_components * (n_components + 3) / 2]\n",
+        "error": "ValueError(\"for method='hessian', n_neighbors must be greater than [n_components * (n_components + 3) / 2]\")"
+      }
+    ],
+    [
+      1,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1693326794.0753906,
+      1693326794.0782027,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 184, in run\n    rval = self(config_copy, target_function, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/smac/runner/target_function_runner.py\", line 257, in __call__\n    return algorithm(config, **algorithm_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFSMAC.py\", line 2165, in train\n    X, X_r = Local_Linear_Embedding(X_scaled, **config_dict)\n       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/AutoMF/AutoMFSMAC.py\", line 320, in Local_Linear_Embedding\n    X_hat = transformer.fit_transform(X)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/utils/_set_output.py\", line 140, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/manifold/_locally_linear.py\", line 799, in fit_transform\n    self._fit_transform(X)\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/manifold/_locally_linear.py\", line 746, in _fit_transform\n    self.embedding_, self.reconstruction_error_ = locally_linear_embedding(\n                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/belinda_local/daniel/home/anaconda3/envs/GenerativeAI/lib/python3.11/site-packages/sklearn/manifold/_locally_linear.py\", line 357, in locally_linear_embedding\n    raise ValueError(\nValueError: for method='hessian', n_neighbors must be greater than [n_components * (n_components + 3) / 2]\n",
+        "error": "ValueError(\"for method='hessian', n_neighbors must be greater than [n_components * (n_components + 3) / 2]\")"
+      }
+    ],
+    [
+      2,
+      null,
+      209652396,
+      null,
+      0.8091910993497168,
+      0.23854994773864746,
+      1,
+      1693326794.0806508,
+      1693326794.3201978,
+      {}
+    ],
+    [
+      2,
+      null,
+      398764591,
+      null,
+      0.8091910993497168,
+      0.2785987854003906,
+      1,
+      1693326794.3225753,
+      1693326794.6022606,
+      {}
+    ],
+    [
+      2,
+      null,
+      924231285,
+      null,
+      0.8091910993497168,
+      0.27959394454956055,
+      1,
+      1693326794.6055079,
+      1693326794.8861914,
+      {}
+    ],
+    [
+      3,
+      null,
+      209652396,
+      null,
+      0.07879595959595964,
+      0.36089587211608887,
+      1,
+      1693326795.028394,
+      1693326795.390379,
+      {}
+    ],
+    [
+      3,
+      null,
+      398764591,
+      null,
+      0.07879595959595964,
+      1.5345830917358398,
+      1,
+      1693326795.3929021,
+      1693326796.9285698,
+      {}
+    ],
+    [
+      3,
+      null,
+      924231285,
+      null,
+      0.07879595959595964,
+      0.8144361972808838,
+      1,
+      1693326796.9310844,
+      1693326797.7466147,
+      {}
+    ],
+    [
+      4,
+      null,
+      209652396,
+      null,
+      0.0,
+      0.599829912185669,
+      1,
+      1693326797.7537067,
+      1693326798.3546185,
+      {}
+    ],
+    [
+      4,
+      null,
+      398764591,
+      null,
+      0.0,
+      0.41036128997802734,
+      1,
+      1693326798.357389,
+      1693326798.7688093,
+      {}
+    ]
+  ],
+  "configs": {
+    "1": {
+      "method": "hessian",
+      "n_components": 4
+    },
+    "2": {
+      "method": "modified",
+      "n_components": 2
+    },
+    "3": {
+      "method": "ltsa",
+      "n_components": 2
+    },
+    "4": {
+      "method": "modified",
+      "n_components": 3
+    }
+  },
+  "config_origins": {
+    "1": "Initial Design: Sobol",
+    "2": "Initial Design: Sobol",
+    "3": "Acquisition Function Maximizer: Random Search (sorted)",
+    "4": "Acquisition Function Maximizer: Random Search (sorted)"
+  }
+}
